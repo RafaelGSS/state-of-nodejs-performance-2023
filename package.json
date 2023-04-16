@@ -1,0 +1,23 @@
+{
+  "name": "state-of-nodejs-performance-2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelGSS/state-of-nodejs-performance-2023.git"
+  },
+  "author": "RafaelGSS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RafaelGSS/state-of-nodejs-performance-2023/issues"
+  },
+  "homepage": "https://github.com/RafaelGSS/state-of-nodejs-performance-2023#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fastify": "^4.15.0"
+  }
+}
