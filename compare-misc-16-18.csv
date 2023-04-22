@@ -1,0 +1,301 @@
+"binary","filename","configuration","rate","time"
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.69348697662567,1.382903543
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.47987695890946,1.623387432
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.80725718834342,0.753631426
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.434122052932423,1.134896780
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.41342023711263,1.228832327
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.405926099689943,1.545919522
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",41.90746094214513,0.715862983
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.416484587776125,1.094232191
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.606700089043517,1.388458204
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.42470589842651,1.628248514
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.7753768853522,0.754235468
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.269611644247043,1.142003940
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.22524600791828,1.238377517
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.439746027027503,1.543230038
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.358875106699365,0.708234105
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.278677074581605,1.099760077
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.556968582909917,1.391661350
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.444239115933534,1.626524131
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.76416383411285,0.754448154
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.34570842280808,1.138705383
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.47080794975405,1.225950531
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.3830693248054,1.547742491
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.19995612808161,0.710901213
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.254049997934462,1.100753833
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.594357200977946,1.389251818
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.43595388428283,1.627255101
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.68013740713097,0.756045769
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.389111806023998,1.136832502
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.293019230144292,1.234922663
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.484235086194115,1.539706325
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.012568690112175,0.714072025
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.294594982642586,1.099118709
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.666397875742,1.384632562
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.466579258109437,1.624556426
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.827812154195016,0.753242480
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.39669771398738,1.136505798
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.337059433940084,1.232687954
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.42876590348676,1.544102191
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.0011620545508,0.714265952
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.20325954533814,1.102809020
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.617863634529165,1.387741199
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.47172166593059,1.624104160
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.84798339683298,0.752861185
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.216656453633153,1.144310681
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.4618289589291,1.226400530
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.370468765918794,1.548749303
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.330273902439636,0.708712636
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.29333520472209,1.099169441
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.622219781826384,1.387461616
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.46512812789915,1.624684096
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.85368622452885,0.752753455
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.22944102641944,1.143752929
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.471474095746792,1.225917159
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.36029004275205,1.549563562
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",41.96266970689752,0.714921148
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.196657825202433,1.103076716
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.6493812149686,1.385720899
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.375033609084912,1.632650075
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.68346972449283,0.755982282
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.37313999496192,1.137520978
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.465635933121835,1.226209696
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.35295574199839,1.550150809
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",41.94600539046437,0.715205172
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.30117713448006,1.098853718
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.58118027849017,1.390100060
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.485262276510944,1.622914490
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.86565720018897,0.752527416
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.28993129685555,1.141121278
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.36215752368199,1.231418029
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.410653203924163,1.545543042
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.065716661065146,0.713169830
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.299798447772048,1.098909212
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.574145300915024,1.390553349
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.409086092604564,1.629630056
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.76213585218017,0.754486633
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.3788488755194,1.137274797
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.480170255471457,1.225481673
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.361833865439877,1.549440007
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.2660007290068,0.709790363
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.31303015655604,1.098376849
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.685001982779,1.383444651
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.487457285053473,1.622721802
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.811217542007235,0.753556456
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.290607084873773,1.141091946
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.506167999084173,1.224181602
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.362715937219523,1.549369422
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.034973543558955,0.713691421
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.485713240053045,1.091476133
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.680744613726326,1.383716313
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.471386882141683,1.624133596
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.7063285002552,0.755547066
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.386394001585977,1.136949596
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.51329750706187,1.223825558
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.333704575691492,1.551694342
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.0547731711255,0.713355411
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.424350573415474,1.093918338
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.61673273460748,1.387813800
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.35891191796122,1.634083770
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.706265646866115,0.755548262
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.259898320728347,1.142426358
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.544020993895256,1.222293609
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.443705475615786,1.542915780
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.41237326589095,0.707340752
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.349883108012676,1.096896827
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.63972370669104,1.386339327
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.37938015526948,1.632263969
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.78910812450204,0.753975181
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.251126891968262,1.142808083
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.56696671706165,1.221151978
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.47291349959878,1.540601513
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.35151938115711,0.708357113
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.455023436852635,1.092696208
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.636232448543094,1.386563029
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.3946548738289,1.630908555
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.79117590883045,0.753936000
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.26344449360728,1.142272104
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.459103836209056,1.226537170
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.348403131207803,1.550515554
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.23422460696176,0.710324394
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.233744049724226,1.101574574
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.593261055894875,1.389322341
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.367315826791557,1.633336100
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.725111918451624,0.755189817
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.387174975906266,1.136915946
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.378322209186635,1.230601505
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.43839097132562,1.543337617
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.259628595422264,0.709897389
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.291603808227823,1.099239173
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.6185049109828,1.387700034
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.441884803043205,1.626731775
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.86042812629616,0.752626136
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.436803361316176,1.134781675
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.383868531856393,1.230321594
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.429329555829543,1.544057396
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.04276076703542,0.713559230
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.4296831865466,1.093705669
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.59301062576074,1.389338454
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.479354970575177,1.623433288
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.88402676914305,0.752180821
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.163229570639288,1.146647432
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.4647317308099,1.226255016
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.479996139038793,1.540041373
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.14625824655289,0.711806961
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.273720209702944,1.099959953
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.611621134043784,1.388142047
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.48875331477771,1.622608052
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.73813243623563,0.754942373
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.229144302459634,1.143765868
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.375197429958483,1.230759262
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.300626239055973,1.554353710
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.221642478413116,0.710536072
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.346453884188538,1.097034377
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.58494324152835,1.389857720
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.41755223522164,1.628880951
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.84306703068904,0.752954083
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.312858428988317,1.140126987
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.448409789980065,1.227073673
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.472153358338858,1.540661654
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.109814091094236,0.712422998
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.329854121437656,1.097700700
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.565969994899323,1.391080485
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.480124929636233,1.623365649
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.79465264157017,0.753870131
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.415774082283185,1.135685061
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.525321797973575,1.223225540
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.304576156920692,1.554035673
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.131276042526665,0.712060085
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.36467429486942,1.096303931
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.612221683698486,1.388103474
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.394641102451764,1.630909776
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.78550287995055,0.754043504
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.27694675269466,1.141685154
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.417142342578323,1.228645006
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.430462420419595,1.543967372
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",41.91855766671493,0.715673479
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.377311489679787,1.095797884
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.631339682209404,1.386876654
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.404869901091224,1.630003372
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.688494059106716,0.755886579
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.2382158433038,1.143370425
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.525818499588954,1.223200767
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.413797988316883,1.545292684
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",41.88436156667304,0.716257784
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.404850040934623,1.094696740
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.684239798669985,1.383493278
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.486572659696353,1.622799453
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.734104090539795,0.755018911
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.375599268451655,1.137414915
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.378649476208263,1.230584985
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.46138615772841,1.541514040
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.10880313416159,0.712440102
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.323514258706243,1.097955399
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.619380264509612,1.387643847
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.389793471898063,1.631339691
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.88672515740249,0.752129935
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.29068553585624,1.141088541
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.469835903184183,1.225999231
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.448159876730717,1.542562391
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.17872262759247,0.711259093
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.21899178658757,1.102171610
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.67578712499631,1.384032784
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.421909759409214,1.628495655
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.71784811399732,0.755327930
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.247191127313418,1.142979447
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.40191458430441,1.229411729
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.431695264200826,1.543869415
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.128869219793636,0.712100765
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.2268992035052,1.101851510
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.62697254768561,1.387156706
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.46869630313122,1.624370205
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.805294683227224,0.753668582
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.378247378773775,1.137300730
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.41239477662799,1.228883945
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.34089547131424,1.551117426
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",41.99316427713127,0.714401987
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.447959663466605,1.092977415
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.642508272116547,1.386160958
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.32205982488926,1.637370486
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.555904332563344,0.758420279
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.294549843459603,1.140920844
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.424140697893783,1.228292957
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.4185914236398,1.544911232
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.16935193181302,0.711417146
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.452161613814635,1.092810119
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.690571359734438,1.383089431
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.46857230538185,1.624381111
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.891275053321365,0.752044149
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.415334200825235,1.135703973
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.478684833504122,1.225556038
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.36936563393195,1.548837508
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",42.16713195754163,0.711454600
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.351643951550315,1.096826211
+"old","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",21.60621582136126,1.388489324
+"old","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",18.377954754269325,1.632390568
+"old","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",39.79389753577563,0.753884436
+"old","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",26.40581672400713,1.136113316
+"new","misc/startup.js","count=30 mode='process' script='benchmark/fixtures/require-builtins'",24.41471113497698,1.228767354
+"new","misc/startup.js","count=30 mode='worker' script='benchmark/fixtures/require-builtins'",19.321416262053294,1.552681211
+"new","misc/startup.js","count=30 mode='process' script='test/fixtures/semicolon'",41.984531085016535,0.714548888
+"new","misc/startup.js","count=30 mode='worker' script='test/fixtures/semicolon'",27.31587634981619,1.098262403
+"old","misc/trace.js","method='trace' n=100000",1216548.8749301261,0.082199739
+"new","misc/trace.js","method='trace' n=100000",1301113.5463185948,0.076857243
+"old","misc/trace.js","method='trace' n=100000",1230382.746726622,0.081275522
+"new","misc/trace.js","method='trace' n=100000",1323035.862964232,0.075583741
+"old","misc/trace.js","method='trace' n=100000",1227807.8790567985,0.081445967
+"new","misc/trace.js","method='trace' n=100000",1220864.4811979728,0.081909173
+"old","misc/trace.js","method='trace' n=100000",1223430.4549521897,0.081737380
+"new","misc/trace.js","method='trace' n=100000",1297586.688587577,0.077066142
+"old","misc/trace.js","method='trace' n=100000",1250622.9196434878,0.079960153
+"new","misc/trace.js","method='trace' n=100000",1239208.1237032074,0.080696695
+"old","misc/trace.js","method='trace' n=100000",1250989.6735681307,0.079936711
+"new","misc/trace.js","method='trace' n=100000",1215402.917856678,0.082277242
+"old","misc/trace.js","method='trace' n=100000",1246513.3152801641,0.080223772
+"new","misc/trace.js","method='trace' n=100000",1292909.9687573477,0.077344906
+"old","misc/trace.js","method='trace' n=100000",1225108.970992752,0.081625392
+"new","misc/trace.js","method='trace' n=100000",1311688.2731894092,0.076237626
+"old","misc/trace.js","method='trace' n=100000",1217182.700401372,0.082156935
+"new","misc/trace.js","method='trace' n=100000",1290417.9716717382,0.077494271
+"old","misc/trace.js","method='trace' n=100000",1126007.578323764,0.088809349
+"new","misc/trace.js","method='trace' n=100000",1296160.4034791796,0.077150945
+"old","misc/trace.js","method='trace' n=100000",1227008.7095777625,0.081499014
+"new","misc/trace.js","method='trace' n=100000",1311671.9455997178,0.076238575
+"old","misc/trace.js","method='trace' n=100000",1124306.2693026522,0.088943736
+"new","misc/trace.js","method='trace' n=100000",1315796.5547472485,0.075999591
+"old","misc/trace.js","method='trace' n=100000",1240582.167001043,0.080607317
+"new","misc/trace.js","method='trace' n=100000",1288292.9457574433,0.077622097
+"old","misc/trace.js","method='trace' n=100000",1234937.1321909556,0.080975782
+"new","misc/trace.js","method='trace' n=100000",1309323.671607011,0.076375309
+"old","misc/trace.js","method='trace' n=100000",1234578.7228505337,0.080999290
+"new","misc/trace.js","method='trace' n=100000",1322004.1281165304,0.075642729
+"old","misc/trace.js","method='trace' n=100000",1220193.5095125188,0.081954214
+"new","misc/trace.js","method='trace' n=100000",1307036.901076154,0.076508934
+"old","misc/trace.js","method='trace' n=100000",1212074.565615202,0.082503175
+"new","misc/trace.js","method='trace' n=100000",1268095.77425217,0.078858397
+"old","misc/trace.js","method='trace' n=100000",1246568.3842234903,0.080220228
+"new","misc/trace.js","method='trace' n=100000",1072529.4846399298,0.093237530
+"old","misc/trace.js","method='trace' n=100000",1226590.3243390613,0.081526813
+"new","misc/trace.js","method='trace' n=100000",1215569.6875526418,0.082265954
+"old","misc/trace.js","method='trace' n=100000",1217854.4279116646,0.082111620
+"new","misc/trace.js","method='trace' n=100000",1285925.908704044,0.077764978
+"old","misc/trace.js","method='trace' n=100000",1233837.1954288306,0.081047970
+"new","misc/trace.js","method='trace' n=100000",1221519.9866688193,0.081865218
+"old","misc/trace.js","method='trace' n=100000",1245605.4106906774,0.080282246
+"new","misc/trace.js","method='trace' n=100000",1308204.4697422117,0.076440650
+"old","misc/trace.js","method='trace' n=100000",1243790.237313809,0.080399409
+"new","misc/trace.js","method='trace' n=100000",1091503.9168836358,0.091616712
+"old","misc/trace.js","method='trace' n=100000",1242577.988481451,0.080477846
+"new","misc/trace.js","method='trace' n=100000",1303264.3487710555,0.076730404
+"old","misc/trace.js","method='trace' n=100000",1229177.72926623,0.081355200
+"new","misc/trace.js","method='trace' n=100000",1299073.8292106856,0.076977919
+"old","misc/trace.js","method='trace' n=100000",1229153.8880755578,0.081356778
+"new","misc/trace.js","method='trace' n=100000",1284311.5056458975,0.077862730
+"old","misc/trace.js","method='trace' n=100000",1240283.0489635097,0.080626757
+"new","misc/trace.js","method='trace' n=100000",1286519.3638017655,0.077729106
+"old","misc/trace.js","method='trace' n=100000",1245904.2300080743,0.080262991
+"new","misc/trace.js","method='trace' n=100000",1277939.8709610438,0.078250943
+"old","misc/trace.js","method='trace' n=100000",1212926.198159125,0.082445247
+"new","misc/trace.js","method='trace' n=100000",1306509.8840869658,0.076539796
+"old","misc/trace.js","method='trace' n=100000",1247575.3840252238,0.080155477
+"new","misc/trace.js","method='trace' n=100000",1302312.4080510463,0.076786491

@@ -1,0 +1,721 @@
+"binary","filename","configuration","rate","time"
+"old","streams/creation.js","kind='duplex' n=50000000",3496142.983773945,14.301474577
+"old","streams/creation.js","kind='readable' n=50000000",8581208.99800944,5.826684796
+"old","streams/creation.js","kind='transform' n=50000000",3537370.5922663864,14.134792693
+"old","streams/creation.js","kind='writable' n=50000000",8080454.356061919,6.187770860
+"new","streams/creation.js","kind='duplex' n=50000000",4179689.1734071337,11.962612033
+"new","streams/creation.js","kind='readable' n=50000000",9291215.337968607,5.381427314
+"new","streams/creation.js","kind='transform' n=50000000",3839720.5075674905,13.021781117
+"new","streams/creation.js","kind='writable' n=50000000",8701203.08750706,5.746331800
+"old","streams/creation.js","kind='duplex' n=50000000",4065941.0398272015,12.297276205
+"old","streams/creation.js","kind='readable' n=50000000",8426504.539568827,5.933658466
+"old","streams/creation.js","kind='transform' n=50000000",4622503.177685957,10.816650217
+"old","streams/creation.js","kind='writable' n=50000000",8266059.773043073,6.048831169
+"new","streams/creation.js","kind='duplex' n=50000000",4025909.9126894246,12.419552619
+"new","streams/creation.js","kind='readable' n=50000000",9071790.58913745,5.511591070
+"new","streams/creation.js","kind='transform' n=50000000",3507219.2607224984,14.256308569
+"new","streams/creation.js","kind='writable' n=50000000",8487993.056225484,5.890673999
+"old","streams/creation.js","kind='duplex' n=50000000",3414860.0236736466,14.641888585
+"old","streams/creation.js","kind='readable' n=50000000",8678767.434144951,5.761186756
+"old","streams/creation.js","kind='transform' n=50000000",4446682.787562539,11.244337046
+"old","streams/creation.js","kind='writable' n=50000000",8001983.826223849,6.248450520
+"new","streams/creation.js","kind='duplex' n=50000000",4728016.935569056,10.575258228
+"new","streams/creation.js","kind='readable' n=50000000",8926916.07545353,5.601038430
+"new","streams/creation.js","kind='transform' n=50000000",4254920.033453703,11.751102161
+"new","streams/creation.js","kind='writable' n=50000000",8263195.050045517,6.050928206
+"old","streams/creation.js","kind='duplex' n=50000000",4073249.629672425,12.275211329
+"old","streams/creation.js","kind='readable' n=50000000",8592335.93322995,5.819139334
+"old","streams/creation.js","kind='transform' n=50000000",3564933.7190133217,14.025506206
+"old","streams/creation.js","kind='writable' n=50000000",8006659.2717471225,6.244801771
+"new","streams/creation.js","kind='duplex' n=50000000",3990735.9292390216,12.529017426
+"new","streams/creation.js","kind='readable' n=50000000",9104335.612188473,5.491888934
+"new","streams/creation.js","kind='transform' n=50000000",3488642.7354361727,14.332221380
+"new","streams/creation.js","kind='writable' n=50000000",8333108.501899398,6.000161883
+"old","streams/creation.js","kind='duplex' n=50000000",3338720.619918944,14.975796328
+"old","streams/creation.js","kind='readable' n=50000000",8628094.617708694,5.795022217
+"old","streams/creation.js","kind='transform' n=50000000",4518495.149939348,11.065630999
+"old","streams/creation.js","kind='writable' n=50000000",8142897.323495412,6.140320578
+"new","streams/creation.js","kind='duplex' n=50000000",4085905.169691826,12.237190518
+"new","streams/creation.js","kind='readable' n=50000000",8693266.628159843,5.751577875
+"new","streams/creation.js","kind='transform' n=50000000",3453423.208891522,14.478387668
+"new","streams/creation.js","kind='writable' n=50000000",8616931.31372443,5.802529715
+"old","streams/creation.js","kind='duplex' n=50000000",3468220.083625942,14.416616822
+"old","streams/creation.js","kind='readable' n=50000000",8399147.411818884,5.952985172
+"old","streams/creation.js","kind='transform' n=50000000",3590570.4616628108,13.925363820
+"old","streams/creation.js","kind='writable' n=50000000",8159592.792636451,6.127756773
+"new","streams/creation.js","kind='duplex' n=50000000",4040484.0537424395,12.374754939
+"new","streams/creation.js","kind='readable' n=50000000",9074245.043370094,5.510100263
+"new","streams/creation.js","kind='transform' n=50000000",4214549.909500034,11.863663042
+"new","streams/creation.js","kind='writable' n=50000000",8514935.147202166,5.872035328
+"old","streams/creation.js","kind='duplex' n=50000000",3801721.720980551,13.151935799
+"old","streams/creation.js","kind='readable' n=50000000",8642363.177687999,5.785454623
+"old","streams/creation.js","kind='transform' n=50000000",3582031.1697927252,13.958560836
+"old","streams/creation.js","kind='writable' n=50000000",8152396.497836445,6.133165875
+"new","streams/creation.js","kind='duplex' n=50000000",4037015.6998899486,12.385386562
+"new","streams/creation.js","kind='readable' n=50000000",8917426.906143429,5.606998580
+"new","streams/creation.js","kind='transform' n=50000000",3485317.120651897,14.345896878
+"new","streams/creation.js","kind='writable' n=50000000",8427781.956072614,5.932759089
+"old","streams/creation.js","kind='duplex' n=50000000",3417554.1173493094,14.630346231
+"old","streams/creation.js","kind='readable' n=50000000",8484663.954206144,5.892985305
+"old","streams/creation.js","kind='transform' n=50000000",3611086.3838560507,13.846248659
+"old","streams/creation.js","kind='writable' n=50000000",8019654.183529594,6.234682800
+"new","streams/creation.js","kind='duplex' n=50000000",3872756.9303519516,12.910699251
+"new","streams/creation.js","kind='readable' n=50000000",8626334.916141225,5.796204354
+"new","streams/creation.js","kind='transform' n=50000000",3506099.49123303,14.260861714
+"new","streams/creation.js","kind='writable' n=50000000",8570722.725885315,5.833813740
+"old","streams/creation.js","kind='duplex' n=50000000",3508733.1650943267,14.250157435
+"old","streams/creation.js","kind='readable' n=50000000",8657596.946173277,5.775274630
+"old","streams/creation.js","kind='transform' n=50000000",4327544.959447937,11.553894984
+"old","streams/creation.js","kind='writable' n=50000000",8012248.628302554,6.240445388
+"new","streams/creation.js","kind='duplex' n=50000000",4584198.1074664015,10.907032992
+"new","streams/creation.js","kind='readable' n=50000000",9159049.95126832,5.459081484
+"new","streams/creation.js","kind='transform' n=50000000",3503350.4365119603,14.272052113
+"new","streams/creation.js","kind='writable' n=50000000",8275146.557562368,6.042189060
+"old","streams/creation.js","kind='duplex' n=50000000",4049921.610474643,12.345917973
+"old","streams/creation.js","kind='readable' n=50000000",8588488.981511429,5.821745840
+"old","streams/creation.js","kind='transform' n=50000000",4357806.212346524,11.473663023
+"old","streams/creation.js","kind='writable' n=50000000",8158496.423205191,6.128580244
+"new","streams/creation.js","kind='duplex' n=50000000",4662846.982595634,10.723062581
+"new","streams/creation.js","kind='readable' n=50000000",8915734.584166959,5.608062861
+"new","streams/creation.js","kind='transform' n=50000000",3485897.686918716,14.343507610
+"new","streams/creation.js","kind='writable' n=50000000",8084950.193851202,6.184329996
+"old","streams/creation.js","kind='duplex' n=50000000",3788476.708520397,13.197916695
+"old","streams/creation.js","kind='readable' n=50000000",8494143.968624214,5.886408352
+"old","streams/creation.js","kind='transform' n=50000000",4500541.546563865,11.109774120
+"old","streams/creation.js","kind='writable' n=50000000",8152820.659025923,6.132846789
+"new","streams/creation.js","kind='duplex' n=50000000",4056482.5302510858,12.325949792
+"new","streams/creation.js","kind='readable' n=50000000",8600431.775560834,5.813661605
+"new","streams/creation.js","kind='transform' n=50000000",3497775.6935365666,14.294798861
+"new","streams/creation.js","kind='writable' n=50000000",8163147.614191613,6.125088307
+"old","streams/creation.js","kind='duplex' n=50000000",4086442.7875198815,12.235580577
+"old","streams/creation.js","kind='readable' n=50000000",8646402.468455216,5.782751865
+"old","streams/creation.js","kind='transform' n=50000000",4440322.291966202,11.260443885
+"old","streams/creation.js","kind='writable' n=50000000",7977959.972896254,6.267266340
+"new","streams/creation.js","kind='duplex' n=50000000",3970994.2833347097,12.591304956
+"new","streams/creation.js","kind='readable' n=50000000",8746678.86701017,5.716455441
+"new","streams/creation.js","kind='transform' n=50000000",3500634.276774038,14.283125870
+"new","streams/creation.js","kind='writable' n=50000000",8438157.170536444,5.925464410
+"old","streams/creation.js","kind='duplex' n=50000000",3526983.6412828737,14.176419594
+"old","streams/creation.js","kind='readable' n=50000000",8676096.052728321,5.762960633
+"old","streams/creation.js","kind='transform' n=50000000",3563593.8156998074,14.030779765
+"old","streams/creation.js","kind='writable' n=50000000",8125413.385585942,6.153533073
+"new","streams/creation.js","kind='duplex' n=50000000",4770992.244861172,10.480000267
+"new","streams/creation.js","kind='readable' n=50000000",8597579.038085315,5.815590619
+"new","streams/creation.js","kind='transform' n=50000000",3516926.4920342225,14.216959073
+"new","streams/creation.js","kind='writable' n=50000000",8699087.218035622,5.747729474
+"old","streams/creation.js","kind='duplex' n=50000000",4027932.606069446,12.413315934
+"old","streams/creation.js","kind='readable' n=50000000",8558297.516374683,5.842283457
+"old","streams/creation.js","kind='transform' n=50000000",3555395.2483776277,14.063134056
+"old","streams/creation.js","kind='writable' n=50000000",8052430.069198901,6.209305709
+"new","streams/creation.js","kind='duplex' n=50000000",4013721.076967779,12.457268216
+"new","streams/creation.js","kind='readable' n=50000000",8603727.764867103,5.811434458
+"new","streams/creation.js","kind='transform' n=50000000",4189897.0677238666,11.933467384
+"new","streams/creation.js","kind='writable' n=50000000",8371982.729742907,5.972300901
+"old","streams/creation.js","kind='duplex' n=50000000",3461473.0448368704,14.444717423
+"old","streams/creation.js","kind='readable' n=50000000",8560931.313994097,5.840486060
+"old","streams/creation.js","kind='transform' n=50000000",3478394.8989564762,14.374446103
+"old","streams/creation.js","kind='writable' n=50000000",8083000.566788729,6.185821662
+"new","streams/creation.js","kind='duplex' n=50000000",4084970.5962476614,12.239990184
+"new","streams/creation.js","kind='readable' n=50000000",9323714.249534918,5.362669711
+"new","streams/creation.js","kind='transform' n=50000000",3403481.85759177,14.690837822
+"new","streams/creation.js","kind='writable' n=50000000",8622348.095444433,5.798884416
+"old","streams/creation.js","kind='duplex' n=50000000",3394944.3545857184,14.727781895
+"old","streams/creation.js","kind='readable' n=50000000",8608481.411100483,5.808225355
+"old","streams/creation.js","kind='transform' n=50000000",3591714.584896455,13.920927963
+"old","streams/creation.js","kind='writable' n=50000000",8137204.681239592,6.144616236
+"new","streams/creation.js","kind='duplex' n=50000000",4001970.338080191,12.493845725
+"new","streams/creation.js","kind='readable' n=50000000",8569003.9130125,5.834983915
+"new","streams/creation.js","kind='transform' n=50000000",4180272.18740763,11.960943632
+"new","streams/creation.js","kind='writable' n=50000000",8695874.567502374,5.749852946
+"old","streams/creation.js","kind='duplex' n=50000000",3903979.09196201,12.807445640
+"old","streams/creation.js","kind='readable' n=50000000",8629797.832456648,5.793878486
+"old","streams/creation.js","kind='transform' n=50000000",3543867.2669129465,14.108880563
+"old","streams/creation.js","kind='writable' n=50000000",8182006.515987985,6.110970445
+"new","streams/creation.js","kind='duplex' n=50000000",4692468.162251314,10.655373307
+"new","streams/creation.js","kind='readable' n=50000000",8618514.61846956,5.801463734
+"new","streams/creation.js","kind='transform' n=50000000",3475416.6867066724,14.386764094
+"new","streams/creation.js","kind='writable' n=50000000",8270395.323055452,6.045660219
+"old","streams/creation.js","kind='duplex' n=50000000",3916448.704742724,12.766667910
+"old","streams/creation.js","kind='readable' n=50000000",8580991.57069393,5.826832434
+"old","streams/creation.js","kind='transform' n=50000000",4553732.680465978,10.980003331
+"old","streams/creation.js","kind='writable' n=50000000",8073385.044604616,6.193189068
+"new","streams/creation.js","kind='duplex' n=50000000",3899841.2638016785,12.821034657
+"new","streams/creation.js","kind='readable' n=50000000",8606404.144608766,5.809627245
+"new","streams/creation.js","kind='transform' n=50000000",4211216.121855952,11.873054850
+"new","streams/creation.js","kind='writable' n=50000000",8532573.457199642,5.859896812
+"old","streams/creation.js","kind='duplex' n=50000000",3846221.9485431197,12.999769818
+"old","streams/creation.js","kind='readable' n=50000000",8591041.039380709,5.820016430
+"old","streams/creation.js","kind='transform' n=50000000",4569337.181100892,10.942506105
+"old","streams/creation.js","kind='writable' n=50000000",8213514.941499238,6.087527734
+"new","streams/creation.js","kind='duplex' n=50000000",4594786.158779905,10.881899238
+"new","streams/creation.js","kind='readable' n=50000000",9157176.517202185,5.460198338
+"new","streams/creation.js","kind='transform' n=50000000",3456294.8840541043,14.466358247
+"new","streams/creation.js","kind='writable' n=50000000",8624423.629122034,5.797488870
+"old","streams/creation.js","kind='duplex' n=50000000",4078683.890797663,12.258856371
+"old","streams/creation.js","kind='readable' n=50000000",8421419.392726274,5.937241416
+"old","streams/creation.js","kind='transform' n=50000000",3607529.320129794,13.859901213
+"old","streams/creation.js","kind='writable' n=50000000",8187525.213350847,6.106851423
+"new","streams/creation.js","kind='duplex' n=50000000",3923331.799840511,12.744270062
+"new","streams/creation.js","kind='readable' n=50000000",8730774.613412667,5.726868716
+"new","streams/creation.js","kind='transform' n=50000000",4255955.290376618,11.748243717
+"new","streams/creation.js","kind='writable' n=50000000",8350091.120068745,5.987958608
+"old","streams/creation.js","kind='duplex' n=50000000",3864112.710954008,12.939581151
+"old","streams/creation.js","kind='readable' n=50000000",8499155.288079018,5.882937575
+"old","streams/creation.js","kind='transform' n=50000000",4389935.208576624,11.389689739
+"old","streams/creation.js","kind='writable' n=50000000",8165558.4202296045,6.123279931
+"new","streams/creation.js","kind='duplex' n=50000000",4002712.7934451574,12.491528266
+"new","streams/creation.js","kind='readable' n=50000000",9180608.398867182,5.446262146
+"new","streams/creation.js","kind='transform' n=50000000",3488994.8886721716,14.330774792
+"new","streams/creation.js","kind='writable' n=50000000",8434209.174001325,5.928238080
+"old","streams/creation.js","kind='duplex' n=50000000",3448772.243858024,14.497913015
+"old","streams/creation.js","kind='readable' n=50000000",8648920.5415379,5.781068257
+"old","streams/creation.js","kind='transform' n=50000000",4661721.84479418,10.725650664
+"old","streams/creation.js","kind='writable' n=50000000",8122761.778474806,6.155541842
+"new","streams/creation.js","kind='duplex' n=50000000",4538652.000632646,11.016486832
+"new","streams/creation.js","kind='readable' n=50000000",8465166.992727658,5.906558021
+"new","streams/creation.js","kind='transform' n=50000000",4257845.315153968,11.743028762
+"new","streams/creation.js","kind='writable' n=50000000",8612592.579716066,5.805452834
+"old","streams/creation.js","kind='duplex' n=50000000",3985936.37572417,12.544103891
+"old","streams/creation.js","kind='readable' n=50000000",8602301.949988455,5.812397692
+"old","streams/creation.js","kind='transform' n=50000000",4590145.161846192,10.892901692
+"old","streams/creation.js","kind='writable' n=50000000",8066144.1110922545,6.198748660
+"new","streams/creation.js","kind='duplex' n=50000000",4096099.7168042017,12.206734078
+"new","streams/creation.js","kind='readable' n=50000000",9027721.424358333,5.538496111
+"new","streams/creation.js","kind='transform' n=50000000",4145902.119740136,12.060101410
+"new","streams/creation.js","kind='writable' n=50000000",8596301.449966224,5.816454936
+"old","streams/creation.js","kind='duplex' n=50000000",3838703.322230542,13.025231648
+"old","streams/creation.js","kind='readable' n=50000000",8473423.829534857,5.900802439
+"old","streams/creation.js","kind='transform' n=50000000",3529797.9321575807,14.165116803
+"old","streams/creation.js","kind='writable' n=50000000",8203089.629495163,6.095264377
+"new","streams/creation.js","kind='duplex' n=50000000",4014323.3794341027,12.455399148
+"new","streams/creation.js","kind='readable' n=50000000",9274758.362921068,5.390976028
+"new","streams/creation.js","kind='transform' n=50000000",3495307.320455363,14.304893795
+"new","streams/creation.js","kind='writable' n=50000000",8548239.768247837,5.849157412
+"old","streams/creation.js","kind='duplex' n=50000000",3423557.801422833,14.604689887
+"old","streams/creation.js","kind='readable' n=50000000",8555937.425314527,5.843895007
+"old","streams/creation.js","kind='transform' n=50000000",3565663.5134434043,14.022635566
+"old","streams/creation.js","kind='writable' n=50000000",8251255.351434995,6.059683996
+"new","streams/creation.js","kind='duplex' n=50000000",3995197.576269219,12.515025614
+"new","streams/creation.js","kind='readable' n=50000000",8777341.979822699,5.696485350
+"new","streams/creation.js","kind='transform' n=50000000",3534465.2062531887,14.146411715
+"new","streams/creation.js","kind='writable' n=50000000",8431676.499946654,5.930018781
+"old","streams/creation.js","kind='duplex' n=50000000",4070004.5745719955,12.284998477
+"old","streams/creation.js","kind='readable' n=50000000",8459659.793262059,5.910403163
+"old","streams/creation.js","kind='transform' n=50000000",3603665.6276887367,13.874761192
+"old","streams/creation.js","kind='writable' n=50000000",8074944.68305172,6.191992882
+"new","streams/creation.js","kind='duplex' n=50000000",4680443.936190752,10.682747338
+"new","streams/creation.js","kind='readable' n=50000000",8723121.130646996,5.731893350
+"new","streams/creation.js","kind='transform' n=50000000",3503294.7200432187,14.272279096
+"new","streams/creation.js","kind='writable' n=50000000",8675794.639442658,5.763160849
+"old","streams/creation.js","kind='duplex' n=50000000",3992227.282311572,12.524337034
+"old","streams/creation.js","kind='readable' n=50000000",8635556.301345225,5.790014940
+"old","streams/creation.js","kind='transform' n=50000000",3576625.8655975023,13.979656212
+"old","streams/creation.js","kind='writable' n=50000000",8174165.027368933,6.116832708
+"new","streams/creation.js","kind='duplex' n=50000000",3951554.458569018,12.653248367
+"new","streams/creation.js","kind='readable' n=50000000",9012015.440092836,5.548148506
+"new","streams/creation.js","kind='transform' n=50000000",3486632.021283168,14.340486663
+"new","streams/creation.js","kind='writable' n=50000000",8351135.480850548,5.987209777
+"old","streams/creation.js","kind='duplex' n=50000000",4082860.2268145857,12.246316852
+"old","streams/creation.js","kind='readable' n=50000000",8601632.86066195,5.812849817
+"old","streams/creation.js","kind='transform' n=50000000",4359233.77491964,11.469905626
+"old","streams/creation.js","kind='writable' n=50000000",8201224.260878995,6.096650745
+"new","streams/creation.js","kind='duplex' n=50000000",5002775.3882012805,9.994452303
+"new","streams/creation.js","kind='readable' n=50000000",8542446.997131865,5.853123820
+"new","streams/creation.js","kind='transform' n=50000000",3485844.786241666,14.343725285
+"new","streams/creation.js","kind='writable' n=50000000",8652991.723829798,5.778348298
+"old","streams/creation.js","kind='duplex' n=50000000",4064972.2726155957,12.300206901
+"old","streams/creation.js","kind='readable' n=50000000",8491653.354533808,5.888134844
+"old","streams/creation.js","kind='transform' n=50000000",3579513.1898630094,13.968379874
+"old","streams/creation.js","kind='writable' n=50000000",8060875.712746821,6.202800016
+"new","streams/creation.js","kind='duplex' n=50000000",4795022.780470419,10.427479136
+"new","streams/creation.js","kind='readable' n=50000000",8903302.151130233,5.615893873
+"new","streams/creation.js","kind='transform' n=50000000",3480863.973453684,14.364249905
+"new","streams/creation.js","kind='writable' n=50000000",8164565.039560227,6.124024949
+"old","streams/creation.js","kind='duplex' n=50000000",4019864.751463915,12.438229416
+"old","streams/creation.js","kind='readable' n=50000000",8616758.06171558,5.802646383
+"old","streams/creation.js","kind='transform' n=50000000",4498582.013075156,11.114613417
+"old","streams/creation.js","kind='writable' n=50000000",8120578.990122893,6.157196434
+"new","streams/creation.js","kind='duplex' n=50000000",4642398.280451667,10.770295218
+"new","streams/creation.js","kind='readable' n=50000000",8744121.104843332,5.718127574
+"new","streams/creation.js","kind='transform' n=50000000",3514264.0413976596,14.227730020
+"new","streams/creation.js","kind='writable' n=50000000",8353525.66631278,5.985496663
+"old","streams/destroy.js","kind='duplex' n=1000000",608885.6268720931,1.642344565
+"old","streams/destroy.js","kind='readable' n=1000000",1211380.456642825,0.825504485
+"old","streams/destroy.js","kind='transform' n=1000000",580619.6345915734,1.722297939
+"old","streams/destroy.js","kind='writable' n=1000000",1107081.7027403703,0.903275700
+"new","streams/destroy.js","kind='duplex' n=1000000",540389.4345100437,1.850517305
+"new","streams/destroy.js","kind='readable' n=1000000",1189981.9881232325,0.840348854
+"new","streams/destroy.js","kind='transform' n=1000000",539449.1992359983,1.853742672
+"new","streams/destroy.js","kind='writable' n=1000000",1094915.4814155484,0.913312504
+"old","streams/destroy.js","kind='duplex' n=1000000",585603.2469310781,1.707640805
+"old","streams/destroy.js","kind='readable' n=1000000",1241182.102430122,0.805683548
+"old","streams/destroy.js","kind='transform' n=1000000",590435.1791860358,1.693666020
+"old","streams/destroy.js","kind='writable' n=1000000",958122.6859887973,1.043707674
+"new","streams/destroy.js","kind='duplex' n=1000000",536291.9001503059,1.864656169
+"new","streams/destroy.js","kind='readable' n=1000000",1184065.213158889,0.844548078
+"new","streams/destroy.js","kind='transform' n=1000000",543873.9622824973,1.838661288
+"new","streams/destroy.js","kind='writable' n=1000000",1082700.4662192657,0.923616486
+"old","streams/destroy.js","kind='duplex' n=1000000",584988.7096681794,1.709434701
+"old","streams/destroy.js","kind='readable' n=1000000",1213013.5975537018,0.824393067
+"old","streams/destroy.js","kind='transform' n=1000000",602483.184692809,1.659797361
+"old","streams/destroy.js","kind='writable' n=1000000",1106529.2758312295,0.903726654
+"new","streams/destroy.js","kind='duplex' n=1000000",542721.2275829682,1.842566587
+"new","streams/destroy.js","kind='readable' n=1000000",1193927.740343573,0.837571627
+"new","streams/destroy.js","kind='transform' n=1000000",552516.4056085678,1.809901009
+"new","streams/destroy.js","kind='writable' n=1000000",1090321.42787997,0.917160733
+"old","streams/destroy.js","kind='duplex' n=1000000",586213.6673195816,1.705862650
+"old","streams/destroy.js","kind='readable' n=1000000",1223679.6435767745,0.817207351
+"old","streams/destroy.js","kind='transform' n=1000000",597979.1487218232,1.672299113
+"old","streams/destroy.js","kind='writable' n=1000000",1107721.3753918775,0.902754088
+"new","streams/destroy.js","kind='duplex' n=1000000",553864.3587370723,1.805496209
+"new","streams/destroy.js","kind='readable' n=1000000",1201353.5097371594,0.832394455
+"new","streams/destroy.js","kind='transform' n=1000000",562822.949989643,1.776757682
+"new","streams/destroy.js","kind='writable' n=1000000",1081272.1658361133,0.924836532
+"old","streams/destroy.js","kind='duplex' n=1000000",591885.5750138885,1.689515748
+"old","streams/destroy.js","kind='readable' n=1000000",1209773.3543818411,0.826601112
+"old","streams/destroy.js","kind='transform' n=1000000",586292.019905972,1.705634677
+"old","streams/destroy.js","kind='writable' n=1000000",896867.1262661658,1.114992367
+"new","streams/destroy.js","kind='duplex' n=1000000",556420.9363266006,1.797200527
+"new","streams/destroy.js","kind='readable' n=1000000",1207124.614610076,0.828414886
+"new","streams/destroy.js","kind='transform' n=1000000",570286.5702904186,1.753504382
+"new","streams/destroy.js","kind='writable' n=1000000",1071403.9830898037,0.933354753
+"old","streams/destroy.js","kind='duplex' n=1000000",609198.9412965531,1.641499898
+"old","streams/destroy.js","kind='readable' n=1000000",1212671.898924709,0.824625359
+"old","streams/destroy.js","kind='transform' n=1000000",589687.4612346834,1.695813572
+"old","streams/destroy.js","kind='writable' n=1000000",1025599.6345435696,0.975039349
+"new","streams/destroy.js","kind='duplex' n=1000000",552747.0236688415,1.809145879
+"new","streams/destroy.js","kind='readable' n=1000000",1199712.4769077844,0.833533050
+"new","streams/destroy.js","kind='transform' n=1000000",548846.6579962176,1.822002531
+"new","streams/destroy.js","kind='writable' n=1000000",1077831.3066648522,0.927788972
+"old","streams/destroy.js","kind='duplex' n=1000000",591823.1754693384,1.689693884
+"old","streams/destroy.js","kind='readable' n=1000000",1219163.123444376,0.820234783
+"old","streams/destroy.js","kind='transform' n=1000000",588047.122843348,1.700543989
+"old","streams/destroy.js","kind='writable' n=1000000",1102570.5384662328,0.906971450
+"new","streams/destroy.js","kind='duplex' n=1000000",551539.7982677113,1.813105787
+"new","streams/destroy.js","kind='readable' n=1000000",1204196.5014979988,0.830429252
+"new","streams/destroy.js","kind='transform' n=1000000",550932.1376475188,1.815105585
+"new","streams/destroy.js","kind='writable' n=1000000",1074911.3040162225,0.930309316
+"old","streams/destroy.js","kind='duplex' n=1000000",584303.6946593057,1.711438776
+"old","streams/destroy.js","kind='readable' n=1000000",1218039.7276909458,0.820991284
+"old","streams/destroy.js","kind='transform' n=1000000",607745.893895989,1.645424527
+"old","streams/destroy.js","kind='writable' n=1000000",1088618.9268534181,0.918595089
+"new","streams/destroy.js","kind='duplex' n=1000000",545746.3232688179,1.832353160
+"new","streams/destroy.js","kind='readable' n=1000000",1182562.4823443422,0.845621280
+"new","streams/destroy.js","kind='transform' n=1000000",540620.5900852007,1.849726071
+"new","streams/destroy.js","kind='writable' n=1000000",1084874.6837765232,0.921765449
+"old","streams/destroy.js","kind='duplex' n=1000000",601753.3275874355,1.661810503
+"old","streams/destroy.js","kind='readable' n=1000000",1216488.0148182448,0.822038514
+"old","streams/destroy.js","kind='transform' n=1000000",586648.5767398664,1.704598016
+"old","streams/destroy.js","kind='writable' n=1000000",1078074.629304389,0.927579569
+"new","streams/destroy.js","kind='duplex' n=1000000",538359.2073918709,1.857495862
+"new","streams/destroy.js","kind='readable' n=1000000",1195357.298237369,0.836569954
+"new","streams/destroy.js","kind='transform' n=1000000",540155.7759023216,1.851317795
+"new","streams/destroy.js","kind='writable' n=1000000",1071548.5573128848,0.933228824
+"old","streams/destroy.js","kind='duplex' n=1000000",592183.9284813595,1.688664538
+"old","streams/destroy.js","kind='readable' n=1000000",1221701.4976145953,0.818530551
+"old","streams/destroy.js","kind='transform' n=1000000",601669.5741045218,1.662041830
+"old","streams/destroy.js","kind='writable' n=1000000",1083019.5373572952,0.923344377
+"new","streams/destroy.js","kind='duplex' n=1000000",557062.5511885127,1.795130543
+"new","streams/destroy.js","kind='readable' n=1000000",1179114.9143452193,0.848093759
+"new","streams/destroy.js","kind='transform' n=1000000",549297.0523128309,1.820508586
+"new","streams/destroy.js","kind='writable' n=1000000",1094664.8254199966,0.913521634
+"old","streams/destroy.js","kind='duplex' n=1000000",591324.8181132461,1.691117926
+"old","streams/destroy.js","kind='readable' n=1000000",1192049.028213619,0.838891670
+"old","streams/destroy.js","kind='transform' n=1000000",598964.2400098274,1.669548753
+"old","streams/destroy.js","kind='writable' n=1000000",1095240.8713086236,0.913041164
+"new","streams/destroy.js","kind='duplex' n=1000000",525522.3618966884,1.902868598
+"new","streams/destroy.js","kind='readable' n=1000000",1147058.1311786184,0.871795398
+"new","streams/destroy.js","kind='transform' n=1000000",547349.5137567228,1.826986185
+"new","streams/destroy.js","kind='writable' n=1000000",1098618.0647058159,0.910234441
+"old","streams/destroy.js","kind='duplex' n=1000000",584506.4657202176,1.710845061
+"old","streams/destroy.js","kind='readable' n=1000000",1235947.4810715509,0.809095868
+"old","streams/destroy.js","kind='transform' n=1000000",599046.4445788396,1.669319648
+"old","streams/destroy.js","kind='writable' n=1000000",1104349.698180565,0.905510276
+"new","streams/destroy.js","kind='duplex' n=1000000",559271.155816364,1.788041435
+"new","streams/destroy.js","kind='readable' n=1000000",1187003.972109376,0.842457164
+"new","streams/destroy.js","kind='transform' n=1000000",532970.5120228309,1.876276412
+"new","streams/destroy.js","kind='writable' n=1000000",1081715.1357167675,0.924457805
+"old","streams/destroy.js","kind='duplex' n=1000000",604623.7207198243,1.653921217
+"old","streams/destroy.js","kind='readable' n=1000000",1199745.2422560747,0.833510286
+"old","streams/destroy.js","kind='transform' n=1000000",596247.7922516856,1.677155057
+"old","streams/destroy.js","kind='writable' n=1000000",1093740.1537751625,0.914293945
+"new","streams/destroy.js","kind='duplex' n=1000000",534922.8899373243,1.869428321
+"new","streams/destroy.js","kind='readable' n=1000000",1207348.2163204302,0.828261463
+"new","streams/destroy.js","kind='transform' n=1000000",532394.2418523837,1.878307317
+"new","streams/destroy.js","kind='writable' n=1000000",1080905.594597115,0.925150175
+"old","streams/destroy.js","kind='duplex' n=1000000",584139.9784116701,1.711918439
+"old","streams/destroy.js","kind='readable' n=1000000",1216039.2877583958,0.822341852
+"old","streams/destroy.js","kind='transform' n=1000000",597458.4764058683,1.673756486
+"old","streams/destroy.js","kind='writable' n=1000000",1081189.3870363273,0.924907340
+"new","streams/destroy.js","kind='duplex' n=1000000",553910.5431005412,1.805345669
+"new","streams/destroy.js","kind='readable' n=1000000",1142839.9676050583,0.875013150
+"new","streams/destroy.js","kind='transform' n=1000000",550221.2988413277,1.817450546
+"new","streams/destroy.js","kind='writable' n=1000000",1073109.847118869,0.931871050
+"old","streams/destroy.js","kind='duplex' n=1000000",580478.6710942964,1.722716182
+"old","streams/destroy.js","kind='readable' n=1000000",1184369.8839070217,0.844330824
+"old","streams/destroy.js","kind='transform' n=1000000",582656.1581590963,1.716278093
+"old","streams/destroy.js","kind='writable' n=1000000",1069425.725721548,0.935081302
+"new","streams/destroy.js","kind='duplex' n=1000000",555371.0992267509,1.800597837
+"new","streams/destroy.js","kind='readable' n=1000000",1192159.5879377637,0.838813872
+"new","streams/destroy.js","kind='transform' n=1000000",549712.8183423006,1.819131675
+"new","streams/destroy.js","kind='writable' n=1000000",1082559.2203141754,0.923736994
+"old","streams/destroy.js","kind='duplex' n=1000000",592278.7722373301,1.688394126
+"old","streams/destroy.js","kind='readable' n=1000000",1188358.1034339906,0.841497186
+"old","streams/destroy.js","kind='transform' n=1000000",592643.6456379987,1.687354631
+"old","streams/destroy.js","kind='writable' n=1000000",1081376.3295526027,0.924747447
+"new","streams/destroy.js","kind='duplex' n=1000000",544367.9361802716,1.836992838
+"new","streams/destroy.js","kind='readable' n=1000000",1175307.9003763376,0.850840873
+"new","streams/destroy.js","kind='transform' n=1000000",543127.0129556659,1.841189954
+"new","streams/destroy.js","kind='writable' n=1000000",947471.8417929861,1.055440337
+"old","streams/destroy.js","kind='duplex' n=1000000",584271.5485034971,1.711532938
+"old","streams/destroy.js","kind='readable' n=1000000",1212332.847229485,0.824855981
+"old","streams/destroy.js","kind='transform' n=1000000",603168.4277064619,1.657911711
+"old","streams/destroy.js","kind='writable' n=1000000",1092432.0416789392,0.915388749
+"new","streams/destroy.js","kind='duplex' n=1000000",571973.09177299,1.748333994
+"new","streams/destroy.js","kind='readable' n=1000000",1177182.6092138581,0.849485876
+"new","streams/destroy.js","kind='transform' n=1000000",547200.5920045009,1.827483403
+"new","streams/destroy.js","kind='writable' n=1000000",1084509.0276993301,0.922076234
+"old","streams/destroy.js","kind='duplex' n=1000000",590755.6739698786,1.692747178
+"old","streams/destroy.js","kind='readable' n=1000000",1218139.1294926845,0.820924290
+"old","streams/destroy.js","kind='transform' n=1000000",589729.8346429861,1.695691724
+"old","streams/destroy.js","kind='writable' n=1000000",1084363.9454483695,0.922199603
+"new","streams/destroy.js","kind='duplex' n=1000000",545770.4850421665,1.832272040
+"new","streams/destroy.js","kind='readable' n=1000000",1180412.0646649748,0.847161792
+"new","streams/destroy.js","kind='transform' n=1000000",534468.3425627402,1.871018207
+"new","streams/destroy.js","kind='writable' n=1000000",1070258.3005477185,0.934353884
+"old","streams/destroy.js","kind='duplex' n=1000000",584418.0316091679,1.711103946
+"old","streams/destroy.js","kind='readable' n=1000000",1202125.9154432276,0.831859614
+"old","streams/destroy.js","kind='transform' n=1000000",577279.6123607119,1.732262804
+"old","streams/destroy.js","kind='writable' n=1000000",1086897.4736710526,0.920049981
+"new","streams/destroy.js","kind='duplex' n=1000000",530992.8491070883,1.883264533
+"new","streams/destroy.js","kind='readable' n=1000000",1183666.2583479707,0.844832733
+"new","streams/destroy.js","kind='transform' n=1000000",555226.0156515337,1.801068343
+"new","streams/destroy.js","kind='writable' n=1000000",1069250.9612702471,0.935234137
+"old","streams/destroy.js","kind='duplex' n=1000000",581028.8047888635,1.721085068
+"old","streams/destroy.js","kind='readable' n=1000000",1189432.2781573117,0.840737231
+"old","streams/destroy.js","kind='transform' n=1000000",600188.0500795876,1.666144469
+"old","streams/destroy.js","kind='writable' n=1000000",1090067.071968647,0.917374743
+"new","streams/destroy.js","kind='duplex' n=1000000",557146.2222582842,1.794860954
+"new","streams/destroy.js","kind='readable' n=1000000",1178003.214766061,0.848894118
+"new","streams/destroy.js","kind='transform' n=1000000",543188.022519854,1.840983156
+"new","streams/destroy.js","kind='writable' n=1000000",1089597.4347058437,0.917770149
+"old","streams/destroy.js","kind='duplex' n=1000000",581574.9922804497,1.719468707
+"old","streams/destroy.js","kind='readable' n=1000000",1230467.6246027749,0.812699156
+"old","streams/destroy.js","kind='transform' n=1000000",579933.9638010416,1.724334256
+"old","streams/destroy.js","kind='writable' n=1000000",1096972.963987875,0.911599495
+"new","streams/destroy.js","kind='duplex' n=1000000",554043.3379724232,1.804912958
+"new","streams/destroy.js","kind='readable' n=1000000",1208182.5677042345,0.827689479
+"new","streams/destroy.js","kind='transform' n=1000000",560010.4150736996,1.785681075
+"new","streams/destroy.js","kind='writable' n=1000000",1002469.0411495898,0.997537040
+"old","streams/destroy.js","kind='duplex' n=1000000",558592.159044433,1.790214889
+"old","streams/destroy.js","kind='readable' n=1000000",1204393.1744119357,0.830293646
+"old","streams/destroy.js","kind='transform' n=1000000",593124.5960065267,1.685986396
+"old","streams/destroy.js","kind='writable' n=1000000",1071156.7283008355,0.933570199
+"new","streams/destroy.js","kind='duplex' n=1000000",547157.2372964352,1.827628206
+"new","streams/destroy.js","kind='readable' n=1000000",1140157.9602658006,0.877071454
+"new","streams/destroy.js","kind='transform' n=1000000",545000.7132533335,1.834859984
+"new","streams/destroy.js","kind='writable' n=1000000",1080231.4527675791,0.925727535
+"old","streams/destroy.js","kind='duplex' n=1000000",585862.0764366728,1.706886382
+"old","streams/destroy.js","kind='readable' n=1000000",1193877.6730395793,0.837606752
+"old","streams/destroy.js","kind='transform' n=1000000",590135.9003782333,1.694524938
+"old","streams/destroy.js","kind='writable' n=1000000",1087521.607423057,0.919521960
+"new","streams/destroy.js","kind='duplex' n=1000000",545171.344701381,1.834285697
+"new","streams/destroy.js","kind='readable' n=1000000",1192389.7602756668,0.838651952
+"new","streams/destroy.js","kind='transform' n=1000000",549211.7651509441,1.820791293
+"new","streams/destroy.js","kind='writable' n=1000000",1096352.5430798987,0.912115365
+"old","streams/destroy.js","kind='duplex' n=1000000",591832.4489573158,1.689667408
+"old","streams/destroy.js","kind='readable' n=1000000",1213844.2559502383,0.823828918
+"old","streams/destroy.js","kind='transform' n=1000000",603481.445595435,1.657051774
+"old","streams/destroy.js","kind='writable' n=1000000",1077259.807622405,0.928281175
+"new","streams/destroy.js","kind='duplex' n=1000000",564176.0292534388,1.772496434
+"new","streams/destroy.js","kind='readable' n=1000000",1197504.389356539,0.835070008
+"new","streams/destroy.js","kind='transform' n=1000000",544838.1867552608,1.835407327
+"new","streams/destroy.js","kind='writable' n=1000000",1089264.3757716534,0.918050771
+"old","streams/destroy.js","kind='duplex' n=1000000",592187.4689860318,1.688654442
+"old","streams/destroy.js","kind='readable' n=1000000",1200443.9352113253,0.833025159
+"old","streams/destroy.js","kind='transform' n=1000000",589722.4715097053,1.695712896
+"old","streams/destroy.js","kind='writable' n=1000000",1068319.076520889,0.936049933
+"new","streams/destroy.js","kind='duplex' n=1000000",560583.528885423,1.783855480
+"new","streams/destroy.js","kind='readable' n=1000000",1172852.849111558,0.852621879
+"new","streams/destroy.js","kind='transform' n=1000000",543364.6657612777,1.840384668
+"new","streams/destroy.js","kind='writable' n=1000000",1076190.360166906,0.929203640
+"old","streams/destroy.js","kind='duplex' n=1000000",595101.9617678398,1.680384311
+"old","streams/destroy.js","kind='readable' n=1000000",1205807.2967212286,0.829319911
+"old","streams/destroy.js","kind='transform' n=1000000",608220.3071657064,1.644141092
+"old","streams/destroy.js","kind='writable' n=1000000",1059226.2491008956,0.944085365
+"new","streams/destroy.js","kind='duplex' n=1000000",560927.7028910812,1.782760942
+"new","streams/destroy.js","kind='readable' n=1000000",1185084.7138787108,0.843821533
+"new","streams/destroy.js","kind='transform' n=1000000",548379.1822474216,1.823555730
+"new","streams/destroy.js","kind='writable' n=1000000",1067634.125393831,0.936650465
+"old","streams/destroy.js","kind='duplex' n=1000000",579230.6782550167,1.726427894
+"old","streams/destroy.js","kind='readable' n=1000000",1211820.42507185,0.825204774
+"old","streams/destroy.js","kind='transform' n=1000000",542347.2752106809,1.843837050
+"old","streams/destroy.js","kind='writable' n=1000000",1077507.5871592306,0.928067711
+"new","streams/destroy.js","kind='duplex' n=1000000",553500.9339511846,1.806681685
+"new","streams/destroy.js","kind='readable' n=1000000",1205058.383921845,0.829835312
+"new","streams/destroy.js","kind='transform' n=1000000",559354.0771981801,1.787776367
+"new","streams/destroy.js","kind='writable' n=1000000",1097617.0955671507,0.911064527
+"old","streams/destroy.js","kind='duplex' n=1000000",580000.0265872013,1.724137852
+"old","streams/destroy.js","kind='readable' n=1000000",1197870.4379141806,0.834814825
+"old","streams/destroy.js","kind='transform' n=1000000",597243.4578189035,1.674359069
+"old","streams/destroy.js","kind='writable' n=1000000",1091040.080784448,0.916556612
+"new","streams/destroy.js","kind='duplex' n=1000000",603974.552993828,1.655698895
+"new","streams/destroy.js","kind='readable' n=1000000",1194726.0200946203,0.837011987
+"new","streams/destroy.js","kind='transform' n=1000000",547201.4986754645,1.827480375
+"new","streams/destroy.js","kind='writable' n=1000000",1063278.885476261,0.940487029
+"old","streams/destroy.js","kind='duplex' n=1000000",593706.4805913928,1.684333981
+"old","streams/destroy.js","kind='readable' n=1000000",1219308.9303754093,0.820136698
+"old","streams/destroy.js","kind='transform' n=1000000",584791.9489952042,1.710009862
+"old","streams/destroy.js","kind='writable' n=1000000",988483.2645176986,1.011650916
+"new","streams/destroy.js","kind='duplex' n=1000000",546298.7013055123,1.830500416
+"new","streams/destroy.js","kind='readable' n=1000000",1213257.1252076488,0.824227593
+"new","streams/destroy.js","kind='transform' n=1000000",542757.5508164518,1.842443276
+"new","streams/destroy.js","kind='writable' n=1000000",1069249.6041776969,0.935235324
+"old","streams/destroy.js","kind='duplex' n=1000000",585411.224913206,1.708200932
+"old","streams/destroy.js","kind='readable' n=1000000",1195041.550805994,0.836790988
+"old","streams/destroy.js","kind='transform' n=1000000",587393.8779563846,1.702435176
+"old","streams/destroy.js","kind='writable' n=1000000",1095893.76889751,0.912497204
+"new","streams/destroy.js","kind='duplex' n=1000000",549969.5962507983,1.818282332
+"new","streams/destroy.js","kind='readable' n=1000000",1176216.66104737,0.850183502
+"new","streams/destroy.js","kind='transform' n=1000000",551151.8762537317,1.814381921
+"new","streams/destroy.js","kind='writable' n=1000000",1067553.4283561858,0.936721267
+"old","streams/pipe.js","n=5000000",6244798.668159299,0.800666325
+"new","streams/pipe.js","n=5000000",11291362.55884533,0.442816354
+"old","streams/pipe.js","n=5000000",6329618.811303031,0.789936985
+"new","streams/pipe.js","n=5000000",11182652.228142003,0.447121121
+"old","streams/pipe.js","n=5000000",6284163.927890822,0.795650791
+"new","streams/pipe.js","n=5000000",12405906.872077685,0.403033817
+"old","streams/pipe.js","n=5000000",6159485.338929986,0.811756133
+"new","streams/pipe.js","n=5000000",10774729.630948465,0.464048767
+"old","streams/pipe.js","n=5000000",6440685.594493379,0.776314870
+"new","streams/pipe.js","n=5000000",11767790.400194803,0.424888601
+"old","streams/pipe.js","n=5000000",6333164.415594251,0.789494741
+"new","streams/pipe.js","n=5000000",12060158.337095197,0.414588255
+"old","streams/pipe.js","n=5000000",6405392.262129087,0.780592319
+"new","streams/pipe.js","n=5000000",12142862.418063516,0.411764527
+"old","streams/pipe.js","n=5000000",5977382.021583738,0.836486606
+"new","streams/pipe.js","n=5000000",11419352.317906072,0.437853204
+"old","streams/pipe.js","n=5000000",6428921.200458261,0.777735462
+"new","streams/pipe.js","n=5000000",11796677.264832979,0.423848164
+"old","streams/pipe.js","n=5000000",6191217.753901361,0.807595565
+"new","streams/pipe.js","n=5000000",11557891.661274968,0.432604851
+"old","streams/pipe.js","n=5000000",6314480.02068654,0.791830837
+"new","streams/pipe.js","n=5000000",12274591.669382911,0.407345526
+"old","streams/pipe.js","n=5000000",6320325.05603676,0.791098552
+"new","streams/pipe.js","n=5000000",12070289.486484308,0.414240272
+"old","streams/pipe.js","n=5000000",6462340.6304890355,0.773713471
+"new","streams/pipe.js","n=5000000",12057763.991702126,0.414670581
+"old","streams/pipe.js","n=5000000",6472090.966491531,0.772547856
+"new","streams/pipe.js","n=5000000",11344911.587061917,0.440726220
+"old","streams/pipe.js","n=5000000",6369032.29348784,0.785048618
+"new","streams/pipe.js","n=5000000",12075690.923396036,0.414054983
+"old","streams/pipe.js","n=5000000",6389395.198763095,0.782546680
+"new","streams/pipe.js","n=5000000",11777549.757609664,0.424536521
+"old","streams/pipe.js","n=5000000",6353171.970914274,0.787008446
+"new","streams/pipe.js","n=5000000",11946231.797834225,0.418542021
+"old","streams/pipe.js","n=5000000",6581507.081062554,0.759704417
+"new","streams/pipe.js","n=5000000",12297237.461266316,0.406595385
+"old","streams/pipe.js","n=5000000",6393441.282633982,0.782051446
+"new","streams/pipe.js","n=5000000",11425841.266239699,0.437604539
+"old","streams/pipe.js","n=5000000",6279099.749997141,0.796292494
+"new","streams/pipe.js","n=5000000",11361959.002793308,0.440064957
+"old","streams/pipe.js","n=5000000",6267750.889459349,0.797734321
+"new","streams/pipe.js","n=5000000",11731708.918995103,0.426195368
+"old","streams/pipe.js","n=5000000",6414051.176734272,0.779538526
+"new","streams/pipe.js","n=5000000",11769998.255144838,0.424808899
+"old","streams/pipe.js","n=5000000",6246124.3188984,0.800496395
+"new","streams/pipe.js","n=5000000",12141007.939000236,0.411827422
+"old","streams/pipe.js","n=5000000",6422608.189175345,0.778499926
+"new","streams/pipe.js","n=5000000",12342862.157867834,0.405092428
+"old","streams/pipe.js","n=5000000",6433867.615597286,0.777137532
+"new","streams/pipe.js","n=5000000",11513911.88552915,0.434257275
+"old","streams/pipe.js","n=5000000",6266482.588155768,0.797895778
+"new","streams/pipe.js","n=5000000",12120611.526546419,0.412520440
+"old","streams/pipe.js","n=5000000",6080913.6291546365,0.822244864
+"new","streams/pipe.js","n=5000000",12391277.41403775,0.403509649
+"old","streams/pipe.js","n=5000000",6201296.351732211,0.806283028
+"new","streams/pipe.js","n=5000000",11604918.873911405,0.430851784
+"old","streams/pipe.js","n=5000000",6300444.223152681,0.793594836
+"new","streams/pipe.js","n=5000000",12117748.677693693,0.412617899
+"old","streams/pipe.js","n=5000000",6402762.297125739,0.780912951
+"new","streams/pipe.js","n=5000000",12438025.454802185,0.401993067
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2625463.758636496,0.038088509
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1136895.3157934793,0.087958846
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2742364.708179487,0.036464880
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1245215.95811492,0.080307355
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2618019.261081866,0.038196816
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1197869.038894568,0.083481580
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2760869.065260015,0.036220479
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1268388.638692888,0.078840189
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2606842.277987039,0.038360587
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1158291.905382424,0.086334023
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2769589.716579852,0.036106431
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1275488.6476727275,0.078401325
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2666202.2497841176,0.037506532
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1178039.7510429746,0.084886779
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2701951.2681473177,0.037010290
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1232926.1155093214,0.081107861
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2581274.1928310427,0.038740557
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1190544.4767058187,0.083995182
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2726324.833697593,0.036679415
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1275419.4280560133,0.078405580
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2632793.7045268808,0.037982467
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1161803.3269585958,0.086073088
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2718969.4148840355,0.036778641
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1242397.8452348732,0.080489515
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2678318.2079330017,0.037336863
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1142501.1003428097,0.087527268
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2708553.6911045653,0.036920073
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1238533.3486250916,0.080740660
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2682440.6336321775,0.037279483
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1185356.3963069844,0.084362813
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2733509.353112278,0.036583010
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1236959.0958778993,0.080843417
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2646556.2269339394,0.037784952
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1187889.3775166252,0.084182923
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2700433.681547955,0.037031089
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1238645.8905123244,0.080733324
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2604858.650080455,0.038389799
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1213436.0472971161,0.082410606
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2748154.202230072,0.036388060
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1278709.04808001,0.078203873
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2600668.090827189,0.038451658
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1189145.9749816766,0.084093965
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2720036.5398828625,0.036764212
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1219470.5844061566,0.082002798
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2589162.0008888594,0.038622535
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1203164.34629404,0.083114165
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2768243.1026800885,0.036123995
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1274303.5491469188,0.078474238
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2638734.70981874,0.037896951
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1185659.8004119573,0.084341225
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2736199.4037055364,0.036547044
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1244752.9927098302,0.080337224
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2654554.395084657,0.037671106
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1175734.9378008,0.085053184
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2670253.1370601146,0.037449633
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1266660.7690941256,0.078947736
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2630365.103093478,0.038017536
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1150494.2154991634,0.086919168
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2732639.581726883,0.036594654
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1219848.0401140687,0.081977424
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2576673.6925687133,0.038809726
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1153375.9446538251,0.086701999
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2789690.375612839,0.035846272
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1241990.3884599418,0.080515921
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2646041.093864921,0.037792308
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1208798.8321939537,0.082726751
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2789678.390810844,0.035846426
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1266790.693076263,0.078939639
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2638740.4890557183,0.037896868
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1179139.7305460544,0.084807591
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2722497.6149559645,0.036730978
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1261011.5150905815,0.079301417
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2642055.60169025,0.037849317
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1161931.9353983041,0.086063561
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2790026.8481493574,0.035841949
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1230294.374995694,0.081281360
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2697198.3041419606,0.037075509
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1186677.114330205,0.084268921
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2689483.600053456,0.037181859
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1230093.7616828154,0.081294616
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2663838.8064254667,0.037539809
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1206441.4757592669,0.082888397
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2767863.138246405,0.036128954
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1248362.0241880629,0.080104968
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2668741.0969129046,0.037470851
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1178738.7589578251,0.084836440
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2769128.5585655738,0.036112444
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1253219.5209493188,0.079794480
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2691008.018235131,0.037160796
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1164620.7909105166,0.085864859
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2703846.5028503407,0.036984348
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1249852.9547998677,0.080009412
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2683203.3562795515,0.037268886
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1202363.2835093627,0.083169539
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2748647.2326495973,0.036381533
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1255450.3808973683,0.079652690
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2625848.585640489,0.038082927
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1183912.929549805,0.084465671
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2704832.502435837,0.036970866
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1287895.3051360762,0.077646063
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2616930.9518319573,0.038212701
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1176966.7974370937,0.084964164
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2693453.383782793,0.037127058
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1254700.3584829487,0.079700304
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2669173.768203665,0.037464777
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1186187.7405195814,0.084303687
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2704697.746240281,0.036972708
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1298874.065820547,0.076989758
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2685236.328991933,0.037240670
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1188173.52433096,0.084162791
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2749385.6360327,0.036371762
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1264822.0703963537,0.079062504
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2615303.7059350424,0.038236477
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1164489.3084393777,0.085874554
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2690604.2914277455,0.037166372
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1238933.8582646532,0.080714559
+"old","streams/readable-async-iterator.js","sync='yes' n=100000",2663498.3111289907,0.037544608
+"old","streams/readable-async-iterator.js","sync='no' n=100000",1210393.8260812708,0.082617738
+"new","streams/readable-async-iterator.js","sync='yes' n=100000",2738577.025518663,0.036515314
+"new","streams/readable-async-iterator.js","sync='no' n=100000",1241455.0185527382,0.080550643
+"old","streams/readable-from.js","n=10000000",12321150.081973782,0.811612547
+"new","streams/readable-from.js","n=10000000",10602947.45377411,0.943133977
+"old","streams/readable-from.js","n=10000000",11767472.996706074,0.849800123
+"new","streams/readable-from.js","n=10000000",12141854.790247716,0.823597397
+"old","streams/readable-from.js","n=10000000",11902416.462750202,0.840165527
+"new","streams/readable-from.js","n=10000000",12522579.118036807,0.798557542
+"old","streams/readable-from.js","n=10000000",12251001.278009752,0.816259812
+"new","streams/readable-from.js","n=10000000",12063320.53839251,0.828959155
+"old","streams/readable-from.js","n=10000000",11864836.475774428,0.842826618
+"new","streams/readable-from.js","n=10000000",12041426.432432586,0.830466395
+"old","streams/readable-from.js","n=10000000",12273200.505581731,0.814783397
+"new","streams/readable-from.js","n=10000000",12285658.036706513,0.813957215
+"old","streams/readable-from.js","n=10000000",11890265.095386526,0.841024142
+"new","streams/readable-from.js","n=10000000",12060297.051894275,0.829166973
+"old","streams/readable-from.js","n=10000000",12022343.775972396,0.831784566
+"new","streams/readable-from.js","n=10000000",10996155.553784907,0.909408743
+"old","streams/readable-from.js","n=10000000",11903443.881767329,0.840093010
+"new","streams/readable-from.js","n=10000000",11082685.586471887,0.902308373
+"old","streams/readable-from.js","n=10000000",10785709.282069668,0.927152748
+"new","streams/readable-from.js","n=10000000",12500479.518394325,0.799969312
+"old","streams/readable-from.js","n=10000000",12089802.448094321,0.827143375
+"new","streams/readable-from.js","n=10000000",12194922.118087195,0.820013437
+"old","streams/readable-from.js","n=10000000",11640690.417497145,0.859055575
+"new","streams/readable-from.js","n=10000000",10564147.29086024,0.946597934
+"old","streams/readable-from.js","n=10000000",11768139.590122547,0.849751987
+"new","streams/readable-from.js","n=10000000",10987361.991234515,0.910136574
+"old","streams/readable-from.js","n=10000000",12196458.638465097,0.819910131
+"new","streams/readable-from.js","n=10000000",12158448.334543772,0.822473372
+"old","streams/readable-from.js","n=10000000",12137952.653097244,0.823862169
+"new","streams/readable-from.js","n=10000000",12320855.302932777,0.811631965
+"old","streams/readable-from.js","n=10000000",11084984.222065773,0.902121266
+"new","streams/readable-from.js","n=10000000",11990104.097076602,0.834021116
+"old","streams/readable-from.js","n=10000000",12256479.14134284,0.815894996
+"new","streams/readable-from.js","n=10000000",11120676.400284823,0.899225878
+"old","streams/readable-from.js","n=10000000",11888721.712194014,0.841133323
+"new","streams/readable-from.js","n=10000000",11911055.06816769,0.839556189
+"old","streams/readable-from.js","n=10000000",11950715.86443202,0.836769957
+"new","streams/readable-from.js","n=10000000",12262479.331468461,0.815495768
+"old","streams/readable-from.js","n=10000000",11846003.260671627,0.844166575
+"new","streams/readable-from.js","n=10000000",12313600.274595257,0.812110169
+"old","streams/readable-from.js","n=10000000",12210436.966238301,0.818971510
+"new","streams/readable-from.js","n=10000000",11060131.536219897,0.904148379
+"old","streams/readable-from.js","n=10000000",11604923.735649971,0.861703207
+"new","streams/readable-from.js","n=10000000",12404380.522631781,0.806166820
+"old","streams/readable-from.js","n=10000000",12368506.144048005,0.808505076
+"new","streams/readable-from.js","n=10000000",11784919.52883953,0.848542069
+"old","streams/readable-from.js","n=10000000",11752883.822439015,0.850855003
+"new","streams/readable-from.js","n=10000000",12401302.728576668,0.806366897
+"old","streams/readable-from.js","n=10000000",11934610.436502947,0.837899155
+"new","streams/readable-from.js","n=10000000",12339806.833428899,0.810385457
+"old","streams/readable-from.js","n=10000000",12233141.51074233,0.817451510
+"new","streams/readable-from.js","n=10000000",10774019.096373517,0.928158741
+"old","streams/readable-from.js","n=10000000",11940379.146011284,0.837494344
+"new","streams/readable-from.js","n=10000000",12249573.036231993,0.816354984
+"old","streams/readable-from.js","n=10000000",12060161.15877579,0.829176316
+"new","streams/readable-from.js","n=10000000",10707732.150076391,0.933904571
+"old","streams/readable-from.js","n=10000000",11900132.86641147,0.840326752
+"new","streams/readable-from.js","n=10000000",12205028.07294984,0.819334453
+"old","streams/readable-from.js","n=10000000",12110857.807541158,0.825705343
+"new","streams/readable-from.js","n=10000000",11956170.377173474,0.836388215

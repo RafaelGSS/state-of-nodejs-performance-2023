@@ -1,0 +1,661 @@
+"binary","filename","configuration","rate","time"
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1908691.6390833529,0.523919097
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1194439.3673140192,0.837212861
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1356864.7806931883,0.736993114
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1048557.4212283768,0.953691214
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1985390.0782648316,0.503679358
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1274654.8180261292,0.784526121
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1430458.2622812197,0.699076671
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1121101.9933928885,0.891979504
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1914377.1502439694,0.522363109
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1223677.1414400758,0.817209022
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1334289.9818902293,0.749462271
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1043697.9801683503,0.958131585
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2018149.6068995725,0.495503404
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1276158.8997411258,0.783601478
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1443508.278963137,0.692756678
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1098990.2052684785,0.909926217
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1877732.7113581575,0.532557160
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1194666.968423614,0.837053360
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1331880.4932295494,0.750818114
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1043566.7146732401,0.958252104
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1991433.4269301735,0.502150856
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1253586.1637112,0.797711421
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1421004.67813071,0.703727451
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1125970.480994885,0.888122750
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1906882.0379583635,0.524416288
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1220830.522360882,0.819114514
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1346503.0560246825,0.742664486
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1043950.4027807548,0.957899913
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1987265.2821351024,0.503204081
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1261748.488736647,0.792550979
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1436691.7168809099,0.696043548
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1124062.0646282812,0.889630592
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1902376.462373908,0.525658312
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1232747.9011496194,0.811195865
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1329563.5774035351,0.752126500
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1037401.9472447435,0.963946523
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1989151.4939727178,0.502726918
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1256861.6018246885,0.795632549
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1443064.1736049494,0.692969875
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1102217.5989827502,0.907261870
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1897277.344400633,0.527071070
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1231011.0346684307,0.812340403
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1342628.2033814974,0.744807831
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1021657.4940043264,0.978801610
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1987309.8698665577,0.503192791
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1267919.0369588917,0.788693892
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1403710.228481577,0.712397744
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1117549.2015480304,0.894815189
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1899802.9775125715,0.526370372
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1217145.279491482,0.821594609
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1333392.2034880454,0.749966887
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1004190.7682451112,0.995826721
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1978221.4396984864,0.505504581
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1251304.4457814633,0.799166025
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1408860.6151978099,0.709793424
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1112349.2039769362,0.898998261
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1916383.0670454225,0.521816341
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1212280.0457875263,0.824891908
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1360703.9069355163,0.734913742
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1045286.6107054431,0.956675413
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2007659.252169575,0.498092492
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1261636.1952150424,0.792621521
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1433201.6013247485,0.697738545
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1125249.9163185395,0.888691468
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1915363.9586852624,0.522093984
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1236541.7164467964,0.808707047
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1352300.337250181,0.739480700
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1022612.2829974042,0.977887726
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2025381.4319835599,0.493734160
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1271416.106374249,0.786524565
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1442184.5671869847,0.693392526
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1101248.415950513,0.908060330
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1908620.8052024178,0.523938541
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1210283.2319948054,0.826252875
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1361674.6707356265,0.734389808
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1026014.4233331899,0.974645168
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2017065.5362665642,0.495769712
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1257475.6076076238,0.795244054
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1446900.6125734441,0.691132474
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1107314.7452548405,0.903085599
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1895690.4949502295,0.527512272
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1208530.956696297,0.827450877
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1334954.854937251,0.749089002
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1043378.488844948,0.958424973
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2032627.6867798707,0.491974013
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1245843.743800915,0.802668878
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1406831.2987359245,0.710817282
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1128712.0562899718,0.885965552
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1912057.661234549,0.522996780
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1228636.6668264754,0.813910269
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1332844.3056490878,0.750275179
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1021997.55613608,0.978475921
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1990102.2701417003,0.502486739
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1266381.4562030958,0.789651487
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1419961.7199051755,0.704244337
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1106110.1829580795,0.904069066
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1910707.9259229542,0.523366228
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1209084.4887093822,0.827072061
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1358486.6242734522,0.736113247
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1039194.048400174,0.962284187
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2009583.640072831,0.497615516
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1246874.5250888723,0.802005318
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1464318.2506527877,0.682911655
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1105498.8447791336,0.904569014
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1905744.5175251095,0.524729307
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1190951.6396377273,0.839664657
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1306761.1725058362,0.765250775
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1050250.2426527042,0.952154029
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1992685.604381474,0.501835311
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1251711.7768758268,0.798905961
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1420807.1134924598,0.703825305
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1086979.5290786629,0.919980527
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1892692.833460538,0.528347750
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1233601.9619620093,0.810634249
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1331195.0772789426,0.751204701
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1024257.771298751,0.976316732
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2023971.1738091458,0.494078183
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1256555.7545153827,0.795826207
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1439474.8770313833,0.694697779
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1103611.4252507312,0.906116027
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1908942.499744588,0.523850247
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1213584.6157043297,0.824005172
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1363554.714599851,0.733377245
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1018942.2007237554,0.981409936
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2006627.602015081,0.498348572
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1262326.8106550684,0.792187880
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1403675.1246702136,0.712415560
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1083507.4032219828,0.922928627
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1916474.1242608244,0.521791548
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1214186.5021526197,0.823596703
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1360914.3271333633,0.734800112
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1043892.5478726147,0.957953002
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2022211.4978953924,0.494508117
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1268238.256946022,0.788495375
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1439565.7044477058,0.694653948
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1126411.9239767515,0.887774693
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1905455.512345033,0.524808894
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1213975.3586237687,0.823739949
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1346314.6372876973,0.742768423
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1031097.2134971063,0.969840658
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1987708.6616050755,0.503091836
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1264559.9072477682,0.790788949
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1405070.435246547,0.711708093
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1125414.0102722615,0.888561890
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1907254.00640256,0.524314012
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1232750.6107225274,0.811194082
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1306800.655690888,0.765227654
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1026295.5832801005,0.974378158
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2020880.4603919748,0.494833821
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1249054.4829309203,0.800605589
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1399438.4506915433,0.714572334
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1101878.4847547547,0.907541089
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1880760.9164460453,0.531699692
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1175414.0389781378,0.850764043
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1317772.8657618503,0.758856117
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1027638.6159840398,0.973104732
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1996185.258032935,0.500955508
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1227515.6028403514,0.814653596
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1441223.9272521008,0.693854703
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1113895.5988629279,0.897750203
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1910613.6886964743,0.523392042
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1233977.4826182888,0.810387559
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1348535.9363385313,0.741544940
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1039082.6218836798,0.962387378
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1995957.4516480705,0.501012684
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1282240.828479803,0.779884697
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1439419.332713813,0.694724586
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1124449.9144634886,0.889323737
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1893264.1548242662,0.528188313
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1206984.9250793438,0.828510762
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1359472.5722778752,0.735579386
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",994413.941338197,1.005617438
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2009947.6934227187,0.497525385
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1261432.6670049054,0.792749408
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1409601.071718567,0.709420573
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1122720.137126343,0.890693920
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1890017.271620434,0.529095694
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1232930.4417484726,0.811075764
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1328124.4769472275,0.752941473
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1028208.8057652902,0.972565100
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2003448.82897284,0.499139277
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1238824.8091615157,0.807216640
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1441514.1166093587,0.693715024
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1102681.797334015,0.906879938
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1897759.2526447952,0.526937228
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1206979.460599986,0.828514513
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1330743.134087689,0.751459823
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1045419.5497024857,0.956553759
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1987781.6706008115,0.503073358
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1258112.156209782,0.794841696
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1439344.7658156343,0.694760577
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1120187.1373877923,0.892707983
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1886884.3547787438,0.529974186
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1211093.5735342046,0.825700030
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1327340.0285284661,0.753386456
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1003221.5752189904,0.996788770
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2031263.9884264101,0.492304302
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1271272.0667770843,0.786613681
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1416103.2724579,0.706163187
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1115383.4398991677,0.896552669
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1907302.6098531394,0.524300651
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1222106.1078840685,0.818259555
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1362280.7234122595,0.734063092
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1035921.2102360866,0.965324380
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1968422.0460009445,0.508021134
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1260227.2863262708,0.793507656
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1404870.7571586068,0.711809250
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1100299.1765175012,0.908843723
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1912773.3171595852,0.522801103
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1223931.3545077194,0.817039286
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1337315.859964307,0.747766500
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1046539.7043768133,0.955529920
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1988729.9746252175,0.502833473
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1267021.9039629882,0.789252338
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1421336.490803921,0.703563165
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1143061.3915983732,0.874843650
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1913073.8059703843,0.522718986
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1228874.2038994997,0.813752943
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1359542.3367193732,0.735541640
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1049329.7348081113,0.952989291
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2032864.7305015167,0.491916646
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1264306.5036207223,0.790947446
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1457174.7127723214,0.686259507
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1115837.0193586575,0.896188227
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1881147.4983185646,0.531590426
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1228145.4148586723,0.814235829
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1306596.1121490537,0.765347448
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1041716.8047135018,0.959953795
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2027028.363770056,0.493333008
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1252898.973305672,0.798148950
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1401529.330585654,0.713506295
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1107428.8572502641,0.902992543
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",1912000.3045281125,0.523012469
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1211451.9194437438,0.825455789
+"old","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1362862.4374219566,0.733749770
+"old","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1048465.5617384386,0.953774770
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",2036048.3542019501,0.491147471
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",1269043.334068414,0.787995156
+"new","events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",1445659.654384643,0.691725744
+"new","events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",1098906.1369630806,0.909995828
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",23003069.334045846,0.086944919
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24662102.073283732,0.081096088
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22226273.577978298,0.089983595
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24512377.721229356,0.081591432
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",21815598.375357486,0.091677522
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",23985599.23810224,0.083383366
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22087310.231766455,0.090549731
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24373806.445165638,0.082055300
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22328021.06916724,0.089573545
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",23474972.750545066,0.085197117
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22454888.80204336,0.089067464
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24582783.75959532,0.081357751
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22197618.135640476,0.090099757
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24531145.717716254,0.081529009
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22323170.32682762,0.089593009
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24433450.88470166,0.081854995
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22233027.720728137,0.089956259
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24458684.072901163,0.081770548
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",19593750.42830714,0.102073363
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24510605.021857765,0.081597333
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22343821.020184238,0.089510205
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24297769.554656632,0.082312082
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22223231.65078876,0.089995912
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",23643155.648674387,0.084591077
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22259520.274393994,0.089849196
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24502608.682484686,0.081623962
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22192648.545355666,0.090119933
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",23788584.757383436,0.084073938
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22416899.042110212,0.089218406
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24433692.370968055,0.081854186
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22105040.455429263,0.090477102
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24003651.627514787,0.083320656
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22223176.090324853,0.089996137
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24427701.69770084,0.081874260
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22360074.816363133,0.089445139
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24250770.916850712,0.082471605
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",21612083.333081193,0.092540824
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24599416.642053925,0.081302741
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22346398.42705489,0.089499881
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24417093.772505693,0.081909830
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22304328.669093017,0.089668693
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24483005.23209167,0.081689318
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",21669969.54925044,0.092293623
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24320918.90268635,0.082233735
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22333330.042889375,0.089552252
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24195955.396837078,0.082658443
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22176147.825491767,0.090186989
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24345188.973747425,0.082151755
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22193517.865998268,0.090116403
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",23800170.059355125,0.084033013
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",21946429.249024574,0.091130998
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24015435.296635594,0.083279773
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",20880059.426319532,0.095785168
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",23112882.009858314,0.086531831
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",20600540.78479614,0.097084830
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24031687.60651745,0.083223452
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22083632.948422603,0.090564809
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",23820058.797671337,0.083962849
+"old","events/ee-emit.js","listeners=5 argc=2 n=2000000",22328252.394367356,0.089572617
+"new","events/ee-emit.js","listeners=5 argc=2 n=2000000",24500540.85556452,0.081630851
+"old","events/ee-once.js","argc=0 n=20000000",11018260.602411201,1.815168539
+"new","events/ee-once.js","argc=0 n=20000000",11693877.50397045,1.710296691
+"old","events/ee-once.js","argc=0 n=20000000",11018172.531985877,1.815183048
+"new","events/ee-once.js","argc=0 n=20000000",11656354.024108121,1.715802382
+"old","events/ee-once.js","argc=0 n=20000000",10750134.887855012,1.860441772
+"new","events/ee-once.js","argc=0 n=20000000",11579679.764882477,1.727163480
+"old","events/ee-once.js","argc=0 n=20000000",10990477.589741929,1.819757134
+"new","events/ee-once.js","argc=0 n=20000000",11690842.57505253,1.710740682
+"old","events/ee-once.js","argc=0 n=20000000",10942881.716067264,1.827672136
+"new","events/ee-once.js","argc=0 n=20000000",11729984.004999675,1.705032163
+"old","events/ee-once.js","argc=0 n=20000000",10789801.894225359,1.853602151
+"new","events/ee-once.js","argc=0 n=20000000",11656050.646565791,1.715847040
+"old","events/ee-once.js","argc=0 n=20000000",10956492.012357403,1.825401778
+"new","events/ee-once.js","argc=0 n=20000000",11678689.912968138,1.712520852
+"old","events/ee-once.js","argc=0 n=20000000",10795441.061273945,1.852633893
+"new","events/ee-once.js","argc=0 n=20000000",11638793.532043336,1.718391167
+"old","events/ee-once.js","argc=0 n=20000000",10757670.49459348,1.859138557
+"new","events/ee-once.js","argc=0 n=20000000",11647420.611529078,1.717118379
+"old","events/ee-once.js","argc=0 n=20000000",10984242.602555959,1.820790083
+"new","events/ee-once.js","argc=0 n=20000000",11633157.615961079,1.719223676
+"old","events/ee-once.js","argc=0 n=20000000",11000778.70332145,1.818053116
+"new","events/ee-once.js","argc=0 n=20000000",11588194.107528564,1.725894459
+"old","events/ee-once.js","argc=0 n=20000000",10930216.453863641,1.829789930
+"new","events/ee-once.js","argc=0 n=20000000",11687338.001004463,1.711253666
+"old","events/ee-once.js","argc=0 n=20000000",10807545.979692513,1.850558863
+"new","events/ee-once.js","argc=0 n=20000000",11727092.860000908,1.705452514
+"old","events/ee-once.js","argc=0 n=20000000",10748715.371716196,1.860687469
+"new","events/ee-once.js","argc=0 n=20000000",11699685.643310891,1.709447639
+"old","events/ee-once.js","argc=0 n=20000000",10987941.095601443,1.820177213
+"new","events/ee-once.js","argc=0 n=20000000",11624381.524853623,1.720521643
+"old","events/ee-once.js","argc=0 n=20000000",10926237.204812849,1.830456325
+"new","events/ee-once.js","argc=0 n=20000000",11762059.8063526,1.700382444
+"old","events/ee-once.js","argc=0 n=20000000",10712118.757869307,1.867044275
+"new","events/ee-once.js","argc=0 n=20000000",11699697.223594049,1.709445947
+"old","events/ee-once.js","argc=0 n=20000000",10790669.151919631,1.853453175
+"new","events/ee-once.js","argc=0 n=20000000",11650472.519573187,1.716668570
+"old","events/ee-once.js","argc=0 n=20000000",10833412.712005235,1.846140319
+"new","events/ee-once.js","argc=0 n=20000000",11672413.850036653,1.713441646
+"old","events/ee-once.js","argc=0 n=20000000",10981148.733895047,1.821303079
+"new","events/ee-once.js","argc=0 n=20000000",11527641.919874674,1.734960206
+"old","events/ee-once.js","argc=0 n=20000000",10969702.317892231,1.823203531
+"new","events/ee-once.js","argc=0 n=20000000",11801353.896990303,1.694720807
+"old","events/ee-once.js","argc=0 n=20000000",11026264.19800424,1.813850969
+"new","events/ee-once.js","argc=0 n=20000000",11569869.919460777,1.728627905
+"old","events/ee-once.js","argc=0 n=20000000",10998395.079545047,1.818447133
+"new","events/ee-once.js","argc=0 n=20000000",11538294.037934551,1.733358496
+"old","events/ee-once.js","argc=0 n=20000000",10719173.282131301,1.865815532
+"new","events/ee-once.js","argc=0 n=20000000",11544704.02634483,1.732396080
+"old","events/ee-once.js","argc=0 n=20000000",11008819.326992497,1.816725246
+"new","events/ee-once.js","argc=0 n=20000000",11696245.008261936,1.709950500
+"old","events/ee-once.js","argc=0 n=20000000",10803049.584656935,1.851329094
+"new","events/ee-once.js","argc=0 n=20000000",11634020.08612637,1.719096224
+"old","events/ee-once.js","argc=0 n=20000000",10855192.270275503,1.842436274
+"new","events/ee-once.js","argc=0 n=20000000",11737872.339770209,1.703886311
+"old","events/ee-once.js","argc=0 n=20000000",11053666.557017978,1.809354380
+"new","events/ee-once.js","argc=0 n=20000000",11960293.612075774,1.672199751
+"old","events/ee-once.js","argc=0 n=20000000",10830914.005897127,1.846566226
+"new","events/ee-once.js","argc=0 n=20000000",11619419.01142277,1.721256457
+"old","events/ee-once.js","argc=0 n=20000000",10948324.518641107,1.826763535
+"new","events/ee-once.js","argc=0 n=20000000",11668346.705368534,1.714038887
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",937880.3072406226,1.066234137
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",490638.25942843175,2.038161478
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",1013304.3938462313,0.986870289
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",516692.3960448394,1.935387491
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",941764.1234239558,1.061837009
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",495750.36687782814,2.017144246
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",827481.1419013028,1.208486755
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",503070.38748364744,1.987793408
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",943922.5736710472,1.059408926
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",486952.38618378004,2.053588869
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",930542.017461621,1.074642500
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",493855.9082730368,2.024882123
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",947323.7197381274,1.055605364
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",487155.21759370185,2.052733839
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",995195.5412596512,1.004827653
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",515776.93856182037,1.938822629
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",945189.8373759581,1.057988523
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",494648.39701411076,2.021638008
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",995883.3339922926,1.004133683
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",472046.9494459417,2.118433349
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",937183.5104926779,1.067026883
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",487177.4184867593,2.052640295
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",1006649.6801512579,0.993394246
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",483862.8029473477,2.066701540
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",930729.0817584824,1.074426511
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",495299.07462991565,2.018982169
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",937798.9635691558,1.066326621
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",483319.3689881883,2.069025295
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",929113.4707820382,1.076294803
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",486420.59574224317,2.055834002
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",928126.7283836972,1.077439071
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",459435.62215130846,2.176583512
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",946096.1169698744,1.056975060
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",480984.09839058435,2.079070812
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",996735.9985927682,1.003274690
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",468962.75587224064,2.132365497
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",944952.7374092526,1.058253985
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",482324.510501455,2.073292935
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",930059.8369435092,1.075199638
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",509919.4997224661,1.961093860
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",937457.6137328616,1.066714895
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",487147.8743052597,2.052764782
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",955981.6700877603,1.046045161
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",467998.89760051674,2.136757170
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",945036.7424426235,1.058159916
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",492617.53703692736,2.029972392
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",1007131.6553569894,0.992918845
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",482870.27361747477,2.070949600
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",936370.1745768929,1.067953708
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",496402.2696979136,2.014495221
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",1009767.2871124542,0.990327190
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",515093.74673224526,1.941394176
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",945112.4552309326,1.058075147
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",494967.6267685879,2.020334151
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",930031.0191199739,1.075232954
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",524690.8016257234,1.905884374
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",803230.7528061832,1.244972253
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",487219.50781461457,2.052462974
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",671309.2296124896,1.489626473
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",483887.606997766,2.066595601
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",937680.1934167187,1.066461686
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",488738.0671234728,2.046085761
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",928675.3691027684,1.076802544
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",522714.7751991119,1.913089217
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",938723.4021278125,1.065276521
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",497082.2472539818,2.011739517
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",935473.4966270175,1.068977372
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",471697.9879405815,2.120000563
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",935464.7097233875,1.068987413
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",496293.7113192528,2.014935868
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",958164.722092922,1.043661885
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",516258.57865524973,1.937013817
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",944074.0751636055,1.059238916
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",487640.88917522295,2.050689395
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",984363.2151113047,1.015885178
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",514484.6477125155,1.943692595
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",943928.3740504516,1.059402416
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",496506.39309054514,2.014072757
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",951072.3103958245,1.051444763
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",522533.0721827996,1.913754465
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",944693.0529122598,1.058544886
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",496202.0028826657,2.015308270
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",993179.1061121476,1.006867738
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",523875.11047871236,1.908851900
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",946017.184875172,1.057063250
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",485934.10192052997,2.057892204
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",913808.4961269995,1.094321189
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",514534.35869246384,1.943504808
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",946690.0504663048,1.056311936
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",495018.33423412894,2.020127197
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",1002520.5150234206,0.997485822
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",523438.5702478548,1.910443855
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",942487.6469840588,1.061021864
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",496784.04661573493,2.012947088
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",1006559.9160487157,0.993482836
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",483540.0255393753,2.068081125
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",938360.7154715944,1.065688262
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",483992.7057246363,2.066146841
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",995539.3991103583,1.004480587
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",472938.58583208424,2.114439443
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",951943.7635946969,1.050482222
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",492346.72301083873,2.031088973
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",947797.0555865571,1.055078188
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",522639.48747885483,1.913364803
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",948265.976559654,1.054556448
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",492595.3893558241,2.030063662
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",928557.1853001121,1.076939596
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",516079.0766025396,1.937687547
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",942851.0272559942,1.060612940
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",493043.71111512475,2.028217737
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",1014402.4165305363,0.985802068
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",515470.7432618163,1.939974311
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",937724.2042895082,1.066411633
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",497457.8444111815,2.010220587
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",929494.733002294,1.075853326
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",525926.6770855722,1.901405735
+"old","events/eventtarget-add-remove.js","nListener=5 n=1000000",947999.7336917067,1.054852617
+"old","events/eventtarget-add-remove.js","nListener=10 n=1000000",488387.8878737168,2.047552826
+"new","events/eventtarget-add-remove.js","nListener=5 n=1000000",999653.8858364912,1.000346234
+"new","events/eventtarget-add-remove.js","nListener=10 n=1000000",527210.1787887178,1.896776732
+"old","events/eventtarget.js","listeners=1 n=1000000",2011478.1541121989,0.497146836
+"old","events/eventtarget.js","listeners=5 n=1000000",1872240.172886552,0.534119508
+"old","events/eventtarget.js","listeners=10 n=1000000",1772022.6545795654,0.564326871
+"new","events/eventtarget.js","listeners=1 n=1000000",2303875.2206435697,0.434051285
+"new","events/eventtarget.js","listeners=5 n=1000000",2126627.734691213,0.470228044
+"new","events/eventtarget.js","listeners=10 n=1000000",1951166.760260234,0.512513856
+"old","events/eventtarget.js","listeners=1 n=1000000",2034732.4101839205,0.491465116
+"old","events/eventtarget.js","listeners=5 n=1000000",1881569.4751268062,0.531471207
+"old","events/eventtarget.js","listeners=10 n=1000000",1755195.1036965053,0.569737232
+"new","events/eventtarget.js","listeners=1 n=1000000",2326260.192663149,0.429874527
+"new","events/eventtarget.js","listeners=5 n=1000000",2120199.0766011453,0.471653823
+"new","events/eventtarget.js","listeners=10 n=1000000",1941396.8095333332,0.515093048
+"old","events/eventtarget.js","listeners=1 n=1000000",2011949.1470598115,0.497030455
+"old","events/eventtarget.js","listeners=5 n=1000000",1882987.773003429,0.531070894
+"old","events/eventtarget.js","listeners=10 n=1000000",1754560.322035651,0.569943357
+"new","events/eventtarget.js","listeners=1 n=1000000",2330092.4217644557,0.429167526
+"new","events/eventtarget.js","listeners=5 n=1000000",2142041.4504127665,0.466844374
+"new","events/eventtarget.js","listeners=10 n=1000000",1942680.5158987818,0.514752679
+"old","events/eventtarget.js","listeners=1 n=1000000",2035592.7960110393,0.491257388
+"old","events/eventtarget.js","listeners=5 n=1000000",1886613.021693237,0.530050407
+"old","events/eventtarget.js","listeners=10 n=1000000",1768256.876048551,0.565528693
+"new","events/eventtarget.js","listeners=1 n=1000000",2312795.0808513844,0.432377260
+"new","events/eventtarget.js","listeners=5 n=1000000",2117839.1229128535,0.472179397
+"new","events/eventtarget.js","listeners=10 n=1000000",1953076.0357734468,0.512012836
+"old","events/eventtarget.js","listeners=1 n=1000000",2030360.953793894,0.492523262
+"old","events/eventtarget.js","listeners=5 n=1000000",1891140.4916848782,0.528781444
+"old","events/eventtarget.js","listeners=10 n=1000000",1763908.9161392318,0.566922697
+"new","events/eventtarget.js","listeners=1 n=1000000",2318288.894150117,0.431352625
+"new","events/eventtarget.js","listeners=5 n=1000000",2135850.009386313,0.468197671
+"new","events/eventtarget.js","listeners=10 n=1000000",1929734.2762462706,0.518206062
+"old","events/eventtarget.js","listeners=1 n=1000000",2036837.0203960184,0.490957298
+"old","events/eventtarget.js","listeners=5 n=1000000",1871495.3407411075,0.534332081
+"old","events/eventtarget.js","listeners=10 n=1000000",1774058.0936150197,0.563679399
+"new","events/eventtarget.js","listeners=1 n=1000000",2332058.856949187,0.428805644
+"new","events/eventtarget.js","listeners=5 n=1000000",2144495.230857056,0.466310200
+"new","events/eventtarget.js","listeners=10 n=1000000",1942217.5517500953,0.514875380
+"old","events/eventtarget.js","listeners=1 n=1000000",2016436.8681776114,0.495924279
+"old","events/eventtarget.js","listeners=5 n=1000000",1890114.9182309825,0.529068360
+"old","events/eventtarget.js","listeners=10 n=1000000",1755680.1722516075,0.569579822
+"new","events/eventtarget.js","listeners=1 n=1000000",2213997.168620865,0.451671761
+"new","events/eventtarget.js","listeners=5 n=1000000",2142619.2049944284,0.466718490
+"new","events/eventtarget.js","listeners=10 n=1000000",1944425.0536655965,0.514290843
+"old","events/eventtarget.js","listeners=1 n=1000000",2057393.2943409162,0.486051939
+"old","events/eventtarget.js","listeners=5 n=1000000",1896465.809659077,0.527296614
+"old","events/eventtarget.js","listeners=10 n=1000000",1759813.699645641,0.568241968
+"new","events/eventtarget.js","listeners=1 n=1000000",2319707.5774772065,0.431088819
+"new","events/eventtarget.js","listeners=5 n=1000000",2141205.6294257343,0.467026607
+"new","events/eventtarget.js","listeners=10 n=1000000",1925578.620007894,0.519324420
+"old","events/eventtarget.js","listeners=1 n=1000000",2055429.33849131,0.486516360
+"old","events/eventtarget.js","listeners=5 n=1000000",1877479.0902759929,0.532629101
+"old","events/eventtarget.js","listeners=10 n=1000000",1761581.5992570692,0.567671688
+"new","events/eventtarget.js","listeners=1 n=1000000",2338446.746238896,0.427634284
+"new","events/eventtarget.js","listeners=5 n=1000000",2121515.336541504,0.471361193
+"new","events/eventtarget.js","listeners=10 n=1000000",1944195.5188311366,0.514351561
+"old","events/eventtarget.js","listeners=1 n=1000000",2038509.141883828,0.490554582
+"old","events/eventtarget.js","listeners=5 n=1000000",1872607.2760530233,0.534014800
+"old","events/eventtarget.js","listeners=10 n=1000000",1765323.8339610193,0.566468305
+"new","events/eventtarget.js","listeners=1 n=1000000",2313133.316818795,0.432314036
+"new","events/eventtarget.js","listeners=5 n=1000000",2140557.5907644155,0.467167996
+"new","events/eventtarget.js","listeners=10 n=1000000",1926699.6631067377,0.519022253
+"old","events/eventtarget.js","listeners=1 n=1000000",2039109.6416978901,0.490410118
+"old","events/eventtarget.js","listeners=5 n=1000000",1875967.9126794266,0.533058158
+"old","events/eventtarget.js","listeners=10 n=1000000",1761712.2772213528,0.567629580
+"new","events/eventtarget.js","listeners=1 n=1000000",2324876.4873911706,0.430130377
+"new","events/eventtarget.js","listeners=5 n=1000000",2146962.7060297336,0.465774276
+"new","events/eventtarget.js","listeners=10 n=1000000",1944014.9132693491,0.514399346
+"old","events/eventtarget.js","listeners=1 n=1000000",2036957.2569655678,0.490928318
+"old","events/eventtarget.js","listeners=5 n=1000000",1887530.238541145,0.529792837
+"old","events/eventtarget.js","listeners=10 n=1000000",1758329.632987232,0.568721576
+"new","events/eventtarget.js","listeners=1 n=1000000",2332647.1190915843,0.428697505
+"new","events/eventtarget.js","listeners=5 n=1000000",2128419.9638215434,0.469832090
+"new","events/eventtarget.js","listeners=10 n=1000000",1937066.4017297043,0.516244564
+"old","events/eventtarget.js","listeners=1 n=1000000",2044490.4134938314,0.489119437
+"old","events/eventtarget.js","listeners=5 n=1000000",1878108.7124484675,0.532450541
+"old","events/eventtarget.js","listeners=10 n=1000000",1764887.5256152465,0.566608345
+"new","events/eventtarget.js","listeners=1 n=1000000",2310094.5163389877,0.432882721
+"new","events/eventtarget.js","listeners=5 n=1000000",2115896.5313223717,0.472612902
+"new","events/eventtarget.js","listeners=10 n=1000000",1943806.85689726,0.514454405
+"old","events/eventtarget.js","listeners=1 n=1000000",2043653.275959648,0.489319794
+"old","events/eventtarget.js","listeners=5 n=1000000",1876247.1860654482,0.532978814
+"old","events/eventtarget.js","listeners=10 n=1000000",1757052.5016968865,0.569134957
+"new","events/eventtarget.js","listeners=1 n=1000000",2336911.1208903054,0.427915290
+"new","events/eventtarget.js","listeners=5 n=1000000",2115235.437591827,0.472760612
+"new","events/eventtarget.js","listeners=10 n=1000000",1953607.4265651763,0.511873566
+"old","events/eventtarget.js","listeners=1 n=1000000",2016894.9033680945,0.495811655
+"old","events/eventtarget.js","listeners=5 n=1000000",1868427.7155923203,0.535209359
+"old","events/eventtarget.js","listeners=10 n=1000000",1759243.6285425127,0.568426103
+"new","events/eventtarget.js","listeners=1 n=1000000",2317880.8238673746,0.431428566
+"new","events/eventtarget.js","listeners=5 n=1000000",2119897.81668544,0.471720850
+"new","events/eventtarget.js","listeners=10 n=1000000",1956958.785459714,0.510996965
+"old","events/eventtarget.js","listeners=1 n=1000000",2051765.3040902172,0.487385179
+"old","events/eventtarget.js","listeners=5 n=1000000",1888170.1258805636,0.529613294
+"old","events/eventtarget.js","listeners=10 n=1000000",1758716.517387864,0.568596468
+"new","events/eventtarget.js","listeners=1 n=1000000",2338420.15403702,0.427639147
+"new","events/eventtarget.js","listeners=5 n=1000000",2120954.947069512,0.471485734
+"new","events/eventtarget.js","listeners=10 n=1000000",1944343.4412036277,0.514312430
+"old","events/eventtarget.js","listeners=1 n=1000000",2050720.7090798323,0.487633443
+"old","events/eventtarget.js","listeners=5 n=1000000",1866932.8280611564,0.535637911
+"old","events/eventtarget.js","listeners=10 n=1000000",1762891.6977657364,0.567249821
+"new","events/eventtarget.js","listeners=1 n=1000000",2326295.7737309993,0.429867952
+"new","events/eventtarget.js","listeners=5 n=1000000",2125577.639008261,0.470460350
+"new","events/eventtarget.js","listeners=10 n=1000000",1936338.852018469,0.516438535
+"old","events/eventtarget.js","listeners=1 n=1000000",2037149.6359561654,0.490881957
+"old","events/eventtarget.js","listeners=5 n=1000000",1888999.8204033421,0.529380675
+"old","events/eventtarget.js","listeners=10 n=1000000",1767897.0561322963,0.565643795
+"new","events/eventtarget.js","listeners=1 n=1000000",2337604.631007964,0.427788338
+"new","events/eventtarget.js","listeners=5 n=1000000",2132120.8786316626,0.469016560
+"new","events/eventtarget.js","listeners=10 n=1000000",1931297.863837784,0.517786520
+"old","events/eventtarget.js","listeners=1 n=1000000",2052228.0715921242,0.487275276
+"old","events/eventtarget.js","listeners=5 n=1000000",1879777.152869674,0.531977952
+"old","events/eventtarget.js","listeners=10 n=1000000",1765621.1606291982,0.566372913
+"new","events/eventtarget.js","listeners=1 n=1000000",2316793.5764099406,0.431631031
+"new","events/eventtarget.js","listeners=5 n=1000000",2135605.722609244,0.468251227
+"new","events/eventtarget.js","listeners=10 n=1000000",1941490.591089082,0.515068167
+"old","events/eventtarget.js","listeners=1 n=1000000",2042211.9741937763,0.489665134
+"old","events/eventtarget.js","listeners=5 n=1000000",1866678.0180601396,0.535711028
+"old","events/eventtarget.js","listeners=10 n=1000000",1769772.4535597195,0.565044392
+"new","events/eventtarget.js","listeners=1 n=1000000",2329475.699057429,0.429281147
+"new","events/eventtarget.js","listeners=5 n=1000000",2135192.278420464,0.468341896
+"new","events/eventtarget.js","listeners=10 n=1000000",1930818.4990044439,0.517915071
+"old","events/eventtarget.js","listeners=1 n=1000000",2014527.5032007569,0.496394315
+"old","events/eventtarget.js","listeners=5 n=1000000",1884662.6027347725,0.530598951
+"old","events/eventtarget.js","listeners=10 n=1000000",1751756.0688923341,0.570855736
+"new","events/eventtarget.js","listeners=1 n=1000000",2325861.764462091,0.429948166
+"new","events/eventtarget.js","listeners=5 n=1000000",2135154.840190621,0.468350108
+"new","events/eventtarget.js","listeners=10 n=1000000",1926514.0761174806,0.519072252
+"old","events/eventtarget.js","listeners=1 n=1000000",1990657.4108077635,0.502346609
+"old","events/eventtarget.js","listeners=5 n=1000000",1881852.9085052903,0.531391160
+"old","events/eventtarget.js","listeners=10 n=1000000",1764709.8301126375,0.566665399
+"new","events/eventtarget.js","listeners=1 n=1000000",2309300.2059230707,0.433031616
+"new","events/eventtarget.js","listeners=5 n=1000000",2140793.55243676,0.467116504
+"new","events/eventtarget.js","listeners=10 n=1000000",1957373.609401046,0.510888670
+"old","events/eventtarget.js","listeners=1 n=1000000",2027497.5831873994,0.493218837
+"old","events/eventtarget.js","listeners=5 n=1000000",1883818.198907153,0.530836787
+"old","events/eventtarget.js","listeners=10 n=1000000",1755976.1861884731,0.569483805
+"new","events/eventtarget.js","listeners=1 n=1000000",2322139.482405745,0.430637353
+"new","events/eventtarget.js","listeners=5 n=1000000",2120628.4278765684,0.471558330
+"new","events/eventtarget.js","listeners=10 n=1000000",1921177.2187082053,0.520514188
+"old","events/eventtarget.js","listeners=1 n=1000000",2011897.0069040419,0.497043336
+"old","events/eventtarget.js","listeners=5 n=1000000",1875202.3190942113,0.533275791
+"old","events/eventtarget.js","listeners=10 n=1000000",1766771.0891395183,0.566004281
+"new","events/eventtarget.js","listeners=1 n=1000000",2300319.759858763,0.434722171
+"new","events/eventtarget.js","listeners=5 n=1000000",2136415.231374133,0.468073802
+"new","events/eventtarget.js","listeners=10 n=1000000",1953917.1378521563,0.511792430
+"old","events/eventtarget.js","listeners=1 n=1000000",2046938.158788624,0.488534544
+"old","events/eventtarget.js","listeners=5 n=1000000",1870562.3736909772,0.534598586
+"old","events/eventtarget.js","listeners=10 n=1000000",1734470.6421530484,0.576544783
+"new","events/eventtarget.js","listeners=1 n=1000000",2325829.756104444,0.429954083
+"new","events/eventtarget.js","listeners=5 n=1000000",2133191.352667708,0.468781199
+"new","events/eventtarget.js","listeners=10 n=1000000",1934105.0599486015,0.517034995
+"old","events/eventtarget.js","listeners=1 n=1000000",2049203.142050555,0.487994567
+"old","events/eventtarget.js","listeners=5 n=1000000",1874337.322182438,0.533521895
+"old","events/eventtarget.js","listeners=10 n=1000000",1748535.6590871913,0.571907124
+"new","events/eventtarget.js","listeners=1 n=1000000",2328620.483357063,0.429438806
+"new","events/eventtarget.js","listeners=5 n=1000000",2129621.168526415,0.469567083
+"new","events/eventtarget.js","listeners=10 n=1000000",1943226.9609340336,0.514607928
+"old","events/eventtarget.js","listeners=1 n=1000000",2030638.5877300128,0.492455923
+"old","events/eventtarget.js","listeners=5 n=1000000",1884849.557019453,0.530546322
+"old","events/eventtarget.js","listeners=10 n=1000000",1761407.4696890793,0.567727807
+"new","events/eventtarget.js","listeners=1 n=1000000",2312969.076200197,0.432344734
+"new","events/eventtarget.js","listeners=5 n=1000000",2134667.9892386436,0.468456924
+"new","events/eventtarget.js","listeners=10 n=1000000",1921906.836626987,0.520316584
+"old","events/eventtarget.js","listeners=1 n=1000000",2042925.3759810075,0.489494140
+"old","events/eventtarget.js","listeners=5 n=1000000",1873546.145755389,0.533747195
+"old","events/eventtarget.js","listeners=10 n=1000000",1771827.5022380971,0.564389027
+"new","events/eventtarget.js","listeners=1 n=1000000",2314634.546575649,0.432033645
+"new","events/eventtarget.js","listeners=5 n=1000000",2117573.275595072,0.472238676
+"new","events/eventtarget.js","listeners=10 n=1000000",1937065.7150725448,0.516244747
+"old","events/eventtarget.js","listeners=1 n=1000000",2025489.4889045914,0.493707820
+"old","events/eventtarget.js","listeners=5 n=1000000",1880026.6342621266,0.531907358
+"old","events/eventtarget.js","listeners=10 n=1000000",1769274.862962806,0.565203305
+"new","events/eventtarget.js","listeners=1 n=1000000",2354335.170015336,0.424748359
+"new","events/eventtarget.js","listeners=5 n=1000000",2141330.9658035845,0.466999271
+"new","events/eventtarget.js","listeners=10 n=1000000",1957931.1665215855,0.510743185
+"old","events/eventtarget.js","listeners=1 n=1000000",2043328.0938450573,0.489397666
+"old","events/eventtarget.js","listeners=5 n=1000000",1885857.3131201542,0.530262811
+"old","events/eventtarget.js","listeners=10 n=1000000",1765717.0950307227,0.566342141
+"new","events/eventtarget.js","listeners=1 n=1000000",2332457.0393309705,0.428732441
+"new","events/eventtarget.js","listeners=5 n=1000000",2123807.295308642,0.470852512
+"new","events/eventtarget.js","listeners=10 n=1000000",1950141.5538523914,0.512783289
