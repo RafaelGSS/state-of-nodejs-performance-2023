@@ -138,8 +138,40 @@ http/bench-parser.js n=100000 len=8                                             
 http/simple.js duration=10 chunkedEnc=0 c=100 chunks=4 len=1024 type='buffer' benchmarker='test-double-http'        ***    112.66 %       ±2.92% ±3.91% ±5.15%
 http/simple.js duration=10 chunkedEnc=0 c=100 chunks=4 len=1024 type='bytes' benchmarker='test-double-http'         ***    108.94 %       ±2.82% ±3.78% ±4.97%
 ```
-  * `misc`
-  * `module`
+### `misc`
+
+// How to simulate it using `time`?
+
+```console
+➜  nodejs-internal-benchmark (main) node-benchmark-compare compare-misc-16-18.csv
+                                                                                     confidence improvement accuracy (*)   (**)  (***)
+misc/startup.js count=30 mode='process' script='benchmark/fixtures/require-builtins'        ***     12.99 %       ±0.14% ±0.19% ±0.25%
+misc/startup.js count=30 mode='process' script='test/fixtures/semicolon'                    ***      5.88 %       ±0.15% ±0.20% ±0.26%
+misc/startup.js count=30 mode='worker' script='benchmark/fixtures/require-builtins'         ***      5.26 %       ±0.14% ±0.19% ±0.25%
+misc/startup.js count=30 mode='worker' script='test/fixtures/semicolon'                     ***      3.84 %       ±0.15% ±0.21% ±0.27%
+misc/trace.js method='trace' n=100000                                                       ***      3.80 %       ±2.03% ±2.71% ±3.56%
+
+➜  nodejs-internal-benchmark (main) node-benchmark-compare compare-misc-18-20.csv
+                                                                                     confidence improvement accuracy (*)   (**)  (***)
+misc/startup.js count=30 mode='process' script='benchmark/fixtures/require-builtins'        ***     -4.80 %       ±0.13% ±0.18% ±0.23%
+misc/startup.js count=30 mode='process' script='test/fixtures/semicolon'                    ***     27.27 %       ±0.22% ±0.29% ±0.38%
+misc/startup.js count=30 mode='worker' script='benchmark/fixtures/require-builtins'         ***      7.23 %       ±0.21% ±0.28% ±0.37%
+misc/startup.js count=30 mode='worker' script='test/fixtures/semicolon'                     ***     31.26 %       ±0.33% ±0.44% ±0.58%
+misc/trace.js method='trace' n=100000                                                       ***      2.39 %       ±1.00% ±1.34% ±1.76%
+
+Updated file saved to compare-misc-16-20.csv
+➜  nodejs-internal-benchmark (main) node-benchmark-compare compare-misc-16-20.csv
+                                                                                     confidence improvement accuracy (*)   (**)  (***)
+misc/startup.js count=30 mode='process' script='benchmark/fixtures/require-builtins'        ***      7.40 %       ±0.12% ±0.16% ±0.21%
+misc/startup.js count=30 mode='process' script='test/fixtures/semicolon'                    ***     34.75 %       ±0.21% ±0.28% ±0.36%
+misc/startup.js count=30 mode='worker' script='benchmark/fixtures/require-builtins'         ***     12.79 %       ±0.23% ±0.30% ±0.40%
+misc/startup.js count=30 mode='worker' script='test/fixtures/semicolon'                     ***     36.40 %       ±0.34% ±0.46% ±0.60%
+misc/trace.js method='trace' n=100000                                                       ***      7.05 %       ±0.99% ±1.32% ±1.73%
+```
+
+### `module`
+
+
   * `streams`
   * `url`
   * `buffers`
