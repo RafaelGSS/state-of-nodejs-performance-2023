@@ -6,6 +6,14 @@ This report was separated into three groups:
 2. HTTP Servers
 3. Node.js Common Operations
 
+## Dedicated Host
+
+* Dedicated Host on AWS
+* Running a dedicated instance
+  * c6i.xlarge (Ice Lake) 3,5 GHz - Computing Optimized
+  * 4 vCPUs
+  * 8 GB Mem
+
 ## Setup
 
 ```console
@@ -26,7 +34,7 @@ cp $(which node) ./node16
 $ ./benchmark.sh
 ```
 
-### `fs`
+### `fs` results
 
 ```console
 ➜  state-of-nodejs-performance-2023 (main) node-benchmark-compare compare-fs-16-18.csv                                                                                                                                                                    ✭ ✱
@@ -69,7 +77,7 @@ fs/readfile.js concurrent=1 len=16777216 encoding='utf-8' duration=5            
 fs/writefile-promises.js concurrent=1 size=1024 encodingType='utf' duration=5                 0.07 %       ±0.51%  ±0.68%  ±0.89%
 ```
 
-### `events`
+### `events` results
 
 // TODO where we use EventTarget?
 
@@ -118,7 +126,7 @@ events/eventtarget.js listeners=10 n=1000000                            ***    1
 events/eventtarget.js listeners=5 n=1000000                             ***    219.14 %       ±2.20% ±2.97% ±3.94%
 ```
 
-### `http`
+### `http` results
 
 // TODO: Why 112%? How to simulate it in real-world applications?
 
@@ -141,7 +149,7 @@ http/bench-parser.js n=100000 len=8                                             
 http/simple.js duration=10 chunkedEnc=0 c=100 chunks=4 len=1024 type='buffer' benchmarker='test-double-http'        ***    112.66 %       ±2.92% ±3.91% ±5.15%
 http/simple.js duration=10 chunkedEnc=0 c=100 chunks=4 len=1024 type='bytes' benchmarker='test-double-http'         ***    108.94 %       ±2.82% ±3.78% ±4.97%
 ```
-### `misc`
+### `misc` results
 
 // How to simulate it using `time`?
 
@@ -172,7 +180,7 @@ misc/startup.js count=30 mode='worker' script='test/fixtures/semicolon'         
 misc/trace.js method='trace' n=100000                                                       ***      7.05 %       ±0.99% ±1.32% ±1.73%
 ```
 
-### `module`
+### `module` results
 
 ```console
 rafaelgss@MacBook-Pro-de-Rafael nodejs-internal-benchmark % node-benchmark-compare compare-module-16-18.csv
@@ -188,7 +196,7 @@ module/module-require.js n=10000 type='.json'        ***      6.58 %       ±0.6
 module/module-require.js n=10000 type='dir'          ***      9.50 %       ±0.63% ±0.84% ±1.09%
 ```
 
-### `streams`
+### `streams` results
 
 ```console
 rafaelgss@MacBook-Pro-de-Rafael nodejs-internal-benchmark % node-benchmark-compare compare-streams-16-18.csv
@@ -237,7 +245,7 @@ streams/readable-async-iterator.js sync='yes' n=100000        ***      2.57 %   
 streams/readable-from.js n=10000000                                   -0.28 %       ±2.08% ±2.79% ±3.69%
 ```
 
-### `url`
+### `url` results
 
 ```console
 rafaelgss@MacBook-Pro-de-Rafael nodejs-internal-benchmark % node-benchmark-compare compare-url-16-18.csv
@@ -633,6 +641,21 @@ buffers/buffer-tojson.js len=256 n=10000                                        
 buffers/buffer-tojson.js len=4096 n=10000                                                   0.55 %       ±0.90% ±1.19%  ±1.55%
 ```
 
+## Node.js Common Operations
+
+3. Node.js Common Operations
+
+* parseInt is now equal to `+`
+* Property access after shape transition
+* Property Getter Access
+* Property Setter Access
+* Super vs This
+
+Repository: https://github.com/RafaelGSS/nodejs-bench-operations.git
+Commit: [63775b22dba8573194f85ef198635032be04b387](https://github.com/RafaelGSS/nodejs-bench-operations/commit/63775b22dba8573194f85ef198635032be04b387)
+
+*Action executed in the dedicated host
+
 ## HTTP Servers
 
 2. HTTP Servers
@@ -654,16 +677,3 @@ Fastify
 ./node16 server/fastify.js
 npx autocannon -c 500 -d 120 -W [ -c 50 -d 5 ] http://localhost:3000
 ```
-
-## Node.js Common Operations
-
-3. Node.js Common Operations
-
-* parseInt is now equal to `+`
-* Property access after shape transition
-* Property Getter Access
-* Property Setter Access
-* Super vs This
-
-Repository: https://github.com/RafaelGSS/nodejs-bench-operations.git
-*Action executed in the dedicated host
