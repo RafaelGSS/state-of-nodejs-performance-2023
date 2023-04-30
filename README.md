@@ -79,9 +79,6 @@ fs/writefile-promises.js concurrent=1 size=1024 encodingType='utf' duration=5   
 
 ### `events` results
 
-// TODO where we use EventTarget?
-
-
 ```console
 rafaelgss@MacBook-Pro-de-Rafael nodejs-internal-benchmark % node-benchmark-compare compare-events-16-18.csv
                                                                  confidence improvement accuracy (*)   (**)  (***)
@@ -129,6 +126,7 @@ events/eventtarget.js listeners=5 n=1000000                             ***    2
 ### `http` results
 
 // TODO: Why 112%? How to simulate it in real-world applications?
+// TODO benchmark it again with other `benchmarker`
 
 ```console
 rafaelgss@MacBook-Pro-de-Rafael nodejs-internal-benchmark % node-benchmark-compare compare-http-16-18.csv
