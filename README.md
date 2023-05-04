@@ -643,12 +643,6 @@ buffers/buffer-tojson.js len=4096 n=10000                                       
 
 3. Node.js Common Operations
 
-* parseInt is now equal to `+`
-* Property access after shape transition
-* Property Getter Access
-* Property Setter Access
-* Super vs This
-
 Repository: https://github.com/RafaelGSS/nodejs-bench-operations.git
 Commit: [63775b22dba8573194f85ef198635032be04b387](https://github.com/RafaelGSS/nodejs-bench-operations/commit/63775b22dba8573194f85ef198635032be04b387)
 
