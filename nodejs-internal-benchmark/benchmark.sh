@@ -150,3 +150,16 @@ node benchmark/compare.js \
   --filter "buffer-tojson.js" \
   --filter "buffer-tostring.js" \
   buffers  > compare-buffers-18-20.csv
+
+# util
+node benchmark/compare.js \
+  --old ./node16 \
+  --new ./node18 \
+  --filter "text-" \
+  util  > compare-util-16-18.csv
+
+node benchmark/compare.js \
+  --old ./node18 \
+  --new ./node20 \
+  --filter "text-" \
+  util  > compare-util-18-20.csv

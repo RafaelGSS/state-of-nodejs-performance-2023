@@ -125,9 +125,6 @@ events/eventtarget.js listeners=5 n=1000000                             ***    2
 
 ### `http` results
 
-// TODO: Why 112%? How to simulate it in real-world applications?
-// TODO benchmark it again with other `benchmarker`
-
 ```console
 rafaelgss@MacBook-Pro-de-Rafael nodejs-internal-benchmark % node-benchmark-compare compare-http-16-18.csv
                                                                                                              confidence improvement accuracy (*)   (**)  (***)
@@ -148,8 +145,6 @@ http/simple.js duration=10 chunkedEnc=0 c=100 chunks=4 len=1024 type='buffer' be
 http/simple.js duration=10 chunkedEnc=0 c=100 chunks=4 len=1024 type='bytes' benchmarker='test-double-http'         ***    108.94 %       ±2.82% ±3.78% ±4.97%
 ```
 ### `misc` results
-
-// How to simulate it using `time`?
 
 ```console
 ➜  nodejs-internal-benchmark (main) node-benchmark-compare compare-misc-16-18.csv
