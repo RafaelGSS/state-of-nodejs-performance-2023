@@ -634,6 +634,415 @@ buffers/buffer-tojson.js len=256 n=10000                                        
 buffers/buffer-tojson.js len=4096 n=10000                                                   0.55 %       ±0.90% ±1.19%  ±1.55%
 ```
 
+### Util
+
+```
+$ node-benchmark-compare compare-util-16-18.csv
+                                                                                                         confidence improvement accuracy (*)    (**)   (***)
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='iso-8859-3'               ***     21.94 %       ±0.93%  ±1.24%  ±1.62%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='latin1'                   ***     24.15 %       ±1.72%  ±2.30%  ±3.01%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='utf-8'                    ***    116.94 %       ±2.64%  ±3.55%  ±4.69%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='iso-8859-3'               ***     23.01 %       ±1.19%  ±1.59%  ±2.06%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='latin1'                   ***     22.71 %       ±1.04%  ±1.39%  ±1.81%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='utf-8'                    ***    118.79 %       ±2.29%  ±3.07%  ±4.05%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='iso-8859-3'               ***     24.23 %       ±1.15%  ±1.53%  ±2.00%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='latin1'                   ***     22.02 %       ±1.69%  ±2.26%  ±2.97%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='utf-8'                    ***    107.42 %       ±2.92%  ±3.93%  ±5.18%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='iso-8859-3'               ***     23.14 %       ±1.13%  ±1.51%  ±1.97%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='latin1'                   ***     23.85 %       ±1.83%  ±2.43%  ±3.17%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='utf-8'                    ***    109.17 %       ±2.74%  ±3.67%  ±4.85%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='iso-8859-3'                 ***    112.60 %       ±2.52%  ±3.37%  ±4.43%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='latin1'                     ***    112.35 %       ±2.40%  ±3.21%  ±4.21%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='utf-8'                      ***    364.44 %       ±2.51%  ±3.36%  ±4.43%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='iso-8859-3'                 ***    109.63 %       ±2.43%  ±3.26%  ±4.31%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='latin1'                     ***    111.77 %       ±2.73%  ±3.66%  ±4.83%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='utf-8'                      ***    367.74 %       ±1.87%  ±2.50%  ±3.27%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='iso-8859-3'                 ***    114.03 %       ±1.36%  ±1.81%  ±2.35%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='latin1'                     ***    110.06 %       ±3.61%  ±4.85%  ±6.40%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='utf-8'                      ***    349.57 %       ±5.62%  ±7.56% ±10.02%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='iso-8859-3'                 ***    109.92 %       ±2.75%  ±3.70%  ±4.91%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='latin1'                     ***    107.68 %       ±4.01%  ±5.39%  ±7.14%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='utf-8'                      ***    349.32 %       ±7.70% ±10.37% ±13.76%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='iso-8859-3'              ***      9.96 %       ±0.50%  ±0.66%  ±0.87%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='latin1'                  ***      9.75 %       ±0.56%  ±0.75%  ±0.97%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='utf-8'                   ***    121.96 %       ±0.66%  ±0.88%  ±1.16%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='iso-8859-3'              ***     10.62 %       ±1.11%  ±1.48%  ±1.95%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='latin1'                  ***     10.17 %       ±0.52%  ±0.69%  ±0.90%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='utf-8'                   ***    121.34 %       ±0.82%  ±1.09%  ±1.44%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='iso-8859-3'              ***      9.80 %       ±0.53%  ±0.70%  ±0.92%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='latin1'                  ***      9.63 %       ±0.57%  ±0.75%  ±0.99%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='utf-8'                   ***    107.10 %       ±0.58%  ±0.77%  ±1.01%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='iso-8859-3'              ***     10.64 %       ±0.35%  ±0.46%  ±0.60%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='latin1'                  ***     10.54 %       ±1.10%  ±1.47%  ±1.93%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='utf-8'                   ***    106.76 %       ±0.58%  ±0.77%  ±1.02%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='iso-8859-3'                    ***     15.02 %       ±5.63%  ±7.53%  ±9.89%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='latin1'                        ***     15.67 %       ±1.01%  ±1.35%  ±1.76%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='utf-8'                         ***    -16.17 %       ±5.82%  ±7.79% ±10.22%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='iso-8859-3'                    ***     17.63 %       ±3.75%  ±5.03%  ±6.63%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='latin1'                        ***     17.02 %       ±1.12%  ±1.49%  ±1.95%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='utf-8'                         ***    -16.10 %       ±6.17%  ±8.25% ±10.81%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='iso-8859-3'                    ***    124.81 %       ±3.59%  ±4.83%  ±6.39%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='latin1'                        ***     15.77 %       ±0.97%  ±1.29%  ±1.68%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='utf-8'                         ***    218.56 %       ±2.86%  ±3.84%  ±5.09%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='iso-8859-3'                    ***    127.58 %       ±3.54%  ±4.76%  ±6.31%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='latin1'                        ***     16.02 %       ±0.95%  ±1.27%  ±1.66%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='utf-8'                         ***    219.50 %       ±3.48%  ±4.68%  ±6.20%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='iso-8859-3'                      ***     67.30 %       ±2.84%  ±3.81%  ±5.01%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='latin1'                          ***     67.42 %       ±5.01%  ±6.74%  ±8.92%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='utf-8'                           ***    262.92 %       ±5.68%  ±7.64% ±10.12%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='iso-8859-3'                      ***     68.75 %       ±2.56%  ±3.43%  ±4.50%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='latin1'                          ***     67.36 %       ±2.53%  ±3.40%  ±4.49%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='utf-8'                           ***    263.79 %       ±5.55%  ±7.48%  ±9.90%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='iso-8859-3'                      ***     70.25 %       ±1.30%  ±1.73%  ±2.25%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='latin1'                          ***     70.44 %       ±1.80%  ±2.40%  ±3.14%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='utf-8'                           ***    250.29 %       ±7.17%  ±9.65% ±12.80%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='iso-8859-3'                      ***     68.86 %       ±2.47%  ±3.30%  ±4.32%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='latin1'                          ***     69.64 %       ±1.23%  ±1.64%  ±2.15%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='utf-8'                           ***    253.54 %       ±6.19%  ±8.34% ±11.05%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='iso-8859-3'                   ***     37.90 %       ±1.09%  ±1.46%  ±1.90%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='latin1'                       ***     29.37 %       ±0.62%  ±0.83%  ±1.09%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='utf-8'                        ***    422.50 %       ±2.33%  ±3.11%  ±4.05%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='iso-8859-3'                   ***     39.07 %       ±1.19%  ±1.59%  ±2.09%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='latin1'                       ***     30.13 %       ±0.81%  ±1.08%  ±1.41%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='utf-8'                        ***    425.79 %       ±2.30%  ±3.06%  ±3.98%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='iso-8859-3'                   ***    -98.27 %       ±0.53%  ±0.71%  ±0.95%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='latin1'                       ***     29.54 %       ±1.45%  ±1.95%  ±2.57%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='utf-8'                        ***    -96.22 %       ±0.53%  ±0.71%  ±0.94%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='iso-8859-3'                   ***    -98.27 %       ±0.60%  ±0.81%  ±1.08%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='latin1'                       ***     30.13 %       ±0.67%  ±0.90%  ±1.17%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='utf-8'                        ***    -96.25 %       ±0.48%  ±0.64%  ±0.86%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='iso-8859-3'         ***     24.52 %       ±0.76%  ±1.01%  ±1.31%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='latin1'             ***     24.02 %       ±0.92%  ±1.22%  ±1.59%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='utf-8'              ***    119.50 %       ±2.66%  ±3.57%  ±4.72%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='iso-8859-3'         ***     23.44 %       ±1.38%  ±1.85%  ±2.44%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='latin1'             ***     23.76 %       ±0.89%  ±1.19%  ±1.55%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='utf-8'              ***    114.02 %       ±2.79%  ±3.76%  ±4.97%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='iso-8859-3'         ***     23.98 %       ±1.18%  ±1.57%  ±2.04%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='latin1'             ***     23.93 %       ±1.23%  ±1.64%  ±2.13%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='utf-8'              ***    109.65 %       ±2.56%  ±3.44%  ±4.56%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='iso-8859-3'         ***     24.57 %       ±0.90%  ±1.20%  ±1.56%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='latin1'             ***     23.67 %       ±0.86%  ±1.15%  ±1.51%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='utf-8'              ***    107.38 %       ±2.75%  ±3.69%  ±4.87%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='iso-8859-3'           ***    109.68 %       ±3.12%  ±4.20%  ±5.55%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='latin1'               ***    109.51 %       ±3.37%  ±4.52%  ±5.98%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='utf-8'                ***    363.95 %       ±5.47%  ±7.36%  ±9.76%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='iso-8859-3'           ***    112.62 %       ±3.47%  ±4.65%  ±6.12%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='latin1'               ***    112.55 %       ±2.82%  ±3.78%  ±4.97%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='utf-8'                ***    365.27 %       ±2.13%  ±2.85%  ±3.75%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='iso-8859-3'           ***    110.85 %       ±2.66%  ±3.57%  ±4.72%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='latin1'               ***    113.19 %       ±2.04%  ±2.73%  ±3.58%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='utf-8'                ***    354.43 %       ±6.06%  ±8.15% ±10.80%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='iso-8859-3'           ***    111.09 %       ±2.31%  ±3.10%  ±4.09%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='latin1'               ***    112.40 %       ±1.98%  ±2.64%  ±3.47%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='utf-8'                ***    345.27 %       ±8.45% ±11.39% ±15.11%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='iso-8859-3'        ***     10.09 %       ±0.63%  ±0.84%  ±1.10%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='latin1'            ***     10.28 %       ±0.42%  ±0.56%  ±0.74%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='utf-8'             ***    121.63 %       ±0.61%  ±0.82%  ±1.08%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='iso-8859-3'        ***     10.58 %       ±0.48%  ±0.65%  ±0.84%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='latin1'            ***     10.20 %       ±0.52%  ±0.70%  ±0.91%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='utf-8'             ***    121.72 %       ±0.70%  ±0.94%  ±1.24%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='iso-8859-3'        ***     10.37 %       ±0.47%  ±0.63%  ±0.83%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='latin1'            ***     10.37 %       ±0.46%  ±0.61%  ±0.80%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='utf-8'             ***    107.59 %       ±0.61%  ±0.81%  ±1.07%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='iso-8859-3'        ***     10.31 %       ±0.39%  ±0.52%  ±0.68%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='latin1'            ***     10.71 %       ±0.49%  ±0.66%  ±0.86%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='utf-8'             ***    107.37 %       ±0.64%  ±0.86%  ±1.13%
+util/text-encoder.js op='encode' type='ascii' n=1000000 len=1024                                                ***     -4.39 %       ±1.37%  ±1.83%  ±2.40%
+util/text-encoder.js op='encode' type='ascii' n=1000000 len=256                                                 ***     -8.11 %       ±3.25%  ±4.37%  ±5.77%
+util/text-encoder.js op='encode' type='ascii' n=1000000 len=32                                                          -2.47 %       ±2.83%  ±3.78%  ±4.94%
+util/text-encoder.js op='encode' type='ascii' n=1000000 len=8192                                                         0.37 %       ±0.71%  ±0.95%  ±1.25%
+util/text-encoder.js op='encode' type='one-byte-string' n=1000000 len=1024                                      ***     -5.01 %       ±1.54%  ±2.06%  ±2.68%
+util/text-encoder.js op='encode' type='one-byte-string' n=1000000 len=256                                               -1.91 %       ±2.82%  ±3.76%  ±4.93%
+util/text-encoder.js op='encode' type='one-byte-string' n=1000000 len=32                                        ***     -6.71 %       ±1.97%  ±2.63%  ±3.44%
+util/text-encoder.js op='encode' type='one-byte-string' n=1000000 len=8192                                      ***      0.44 %       ±0.17%  ±0.23%  ±0.30%
+util/text-encoder.js op='encode' type='two-byte-string' n=1000000 len=1024                                      ***     -2.65 %       ±1.02%  ±1.35%  ±1.77%
+util/text-encoder.js op='encode' type='two-byte-string' n=1000000 len=256                                       ***     -6.18 %       ±1.56%  ±2.09%  ±2.73%
+util/text-encoder.js op='encode' type='two-byte-string' n=1000000 len=32                                        ***     -5.98 %       ±1.94%  ±2.58%  ±3.37%
+util/text-encoder.js op='encode' type='two-byte-string' n=1000000 len=8192                                      ***     -1.77 %       ±0.11%  ±0.14%  ±0.19%
+util/text-encoder.js op='encodeInto' type='ascii' n=1000000 len=1024                                            ***     76.36 %       ±1.17%  ±1.57%  ±2.08%
+util/text-encoder.js op='encodeInto' type='ascii' n=1000000 len=256                                             ***     93.67 %       ±1.14%  ±1.51%  ±1.97%
+util/text-encoder.js op='encodeInto' type='ascii' n=1000000 len=32                                              ***    123.08 %       ±1.59%  ±2.12%  ±2.77%
+util/text-encoder.js op='encodeInto' type='ascii' n=1000000 len=8192                                            ***     38.52 %       ±1.08%  ±1.44%  ±1.88%
+util/text-encoder.js op='encodeInto' type='one-byte-string' n=1000000 len=1024                                  ***     20.72 %       ±0.35%  ±0.47%  ±0.62%
+util/text-encoder.js op='encodeInto' type='one-byte-string' n=1000000 len=256                                   ***     59.81 %       ±0.54%  ±0.72%  ±0.93%
+util/text-encoder.js op='encodeInto' type='one-byte-string' n=1000000 len=32                                    ***    155.67 %       ±1.86%  ±2.50%  ±3.28%
+util/text-encoder.js op='encodeInto' type='one-byte-string' n=1000000 len=8192                                  ***      3.06 %       ±0.05%  ±0.07%  ±0.10%
+util/text-encoder.js op='encodeInto' type='two-byte-string' n=1000000 len=1024                                  ***     17.33 %       ±0.31%  ±0.41%  ±0.54%
+util/text-encoder.js op='encodeInto' type='two-byte-string' n=1000000 len=256                                   ***     55.13 %       ±0.51%  ±0.68%  ±0.88%
+util/text-encoder.js op='encodeInto' type='two-byte-string' n=1000000 len=32                                    ***    144.82 %       ±1.56%  ±2.08%  ±2.71%
+util/text-encoder.js op='encodeInto' type='two-byte-string' n=1000000 len=8192                                  ***      2.20 %       ±0.57%  ±0.77%  ±1.02%
+
+$ node-benchmark-compare compare-util-18-20.csv
+                                                                                                         confidence improvement accuracy (*)   (**)   (***)
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='iso-8859-3'               ***     18.49 %       ±1.86% ±2.50%  ±3.28%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='latin1'                   ***     18.41 %       ±2.68% ±3.57%  ±4.65%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='utf-8'                            -0.29 %       ±1.70% ±2.26%  ±2.94%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='iso-8859-3'               ***     16.20 %       ±2.45% ±3.26%  ±4.25%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='latin1'                   ***     18.54 %       ±1.79% ±2.39%  ±3.14%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='utf-8'                             0.82 %       ±1.70% ±2.26%  ±2.94%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='iso-8859-3'               ***     18.24 %       ±2.85% ±3.80%  ±4.94%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='latin1'                   ***     16.78 %       ±1.98% ±2.65%  ±3.48%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='utf-8'                            -0.65 %       ±1.88% ±2.50%  ±3.26%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='iso-8859-3'               ***     19.25 %       ±2.41% ±3.21%  ±4.18%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='latin1'                   ***     17.82 %       ±1.76% ±2.36%  ±3.10%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='utf-8'                             0.34 %       ±1.66% ±2.21%  ±2.88%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='iso-8859-3'                 ***     24.86 %       ±3.28% ±4.40%  ±5.81%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='latin1'                     ***     26.36 %       ±3.75% ±5.02%  ±6.62%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='utf-8'                        *      3.22 %       ±2.97% ±3.95%  ±5.14%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='iso-8859-3'                 ***     26.20 %       ±3.18% ±4.26%  ±5.61%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='latin1'                     ***     24.83 %       ±3.11% ±4.17%  ±5.50%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='utf-8'                       **      2.97 %       ±2.09% ±2.80%  ±3.67%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='iso-8859-3'                 ***     26.29 %       ±3.12% ±4.18%  ±5.49%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='latin1'                     ***     25.48 %       ±3.38% ±4.52%  ±5.92%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='utf-8'                               0.97 %       ±1.46% ±1.96%  ±2.57%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='iso-8859-3'                 ***     26.99 %       ±2.81% ±3.76%  ±4.95%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='latin1'                     ***     23.26 %       ±4.44% ±5.95%  ±7.85%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='utf-8'                               0.95 %       ±3.17% ±4.22%  ±5.50%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='iso-8859-3'              ***     21.03 %       ±2.76% ±3.72%  ±4.93%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='latin1'                  ***     21.45 %       ±2.93% ±3.94%  ±5.22%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='utf-8'                            0.60 %       ±0.63% ±0.84%  ±1.10%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='iso-8859-3'              ***     25.00 %       ±1.93% ±2.59%  ±3.40%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='latin1'                  ***     22.58 %       ±2.09% ±2.81%  ±3.72%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='utf-8'                    **      0.82 %       ±0.57% ±0.76%  ±1.00%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='iso-8859-3'              ***     23.72 %       ±3.04% ±4.05%  ±5.28%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='latin1'                  ***     21.81 %       ±2.21% ±2.98%  ±3.94%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='utf-8'                    **      0.73 %       ±0.50% ±0.66%  ±0.86%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='iso-8859-3'              ***     23.56 %       ±2.13% ±2.87%  ±3.79%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='latin1'                  ***     22.50 %       ±2.17% ±2.91%  ±3.86%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='utf-8'                    **      0.64 %       ±0.40% ±0.53%  ±0.69%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='iso-8859-3'                    ***     17.66 %       ±5.19% ±6.92%  ±9.03%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='latin1'                        ***     17.15 %       ±2.94% ±3.95%  ±5.22%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='utf-8'                         ***     12.63 %       ±4.17% ±5.55%  ±7.23%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='iso-8859-3'                    ***     20.58 %       ±5.79% ±7.72% ±10.06%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='latin1'                        ***     18.03 %       ±1.85% ±2.47%  ±3.25%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='utf-8'                         ***     15.96 %       ±4.75% ±6.32%  ±8.25%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='iso-8859-3'                    ***     -7.67 %       ±2.12% ±2.83%  ±3.69%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='latin1'                        ***     19.06 %       ±1.80% ±2.42%  ±3.18%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='utf-8'                                  0.83 %       ±1.16% ±1.55%  ±2.02%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='iso-8859-3'                    ***     -8.59 %       ±2.21% ±2.94%  ±3.83%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='latin1'                        ***     16.45 %       ±2.27% ±3.05%  ±4.01%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='utf-8'                           *      1.36 %       ±1.25% ±1.66%  ±2.18%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='iso-8859-3'                      ***     26.56 %       ±3.90% ±5.20%  ±6.77%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='latin1'                          ***     24.07 %       ±3.49% ±4.71%  ±6.24%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='utf-8'                           ***      3.40 %       ±0.79% ±1.05%  ±1.37%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='iso-8859-3'                      ***     23.54 %       ±4.04% ±5.42%  ±7.15%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='latin1'                          ***     25.02 %       ±3.13% ±4.20%  ±5.55%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='utf-8'                           ***      3.06 %       ±0.68% ±0.91%  ±1.18%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='iso-8859-3'                      ***     27.16 %       ±3.75% ±4.99%  ±6.50%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='latin1'                          ***     26.53 %       ±2.36% ±3.16%  ±4.14%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='utf-8'                                    1.04 %       ±1.54% ±2.07%  ±2.73%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='iso-8859-3'                      ***     21.96 %       ±4.14% ±5.58%  ±7.41%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='latin1'                          ***     27.51 %       ±2.69% ±3.60%  ±4.71%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='utf-8'                                   -1.14 %       ±2.42% ±3.25%  ±4.29%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='iso-8859-3'                   ***     25.60 %       ±3.06% ±4.08%  ±5.31%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='latin1'                       ***     22.36 %       ±3.13% ±4.19%  ±5.51%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='utf-8'                        ***      1.11 %       ±0.61% ±0.81%  ±1.05%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='iso-8859-3'                   ***     21.45 %       ±2.54% ±3.39%  ±4.44%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='latin1'                       ***     22.81 %       ±2.30% ±3.09%  ±4.09%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='utf-8'                                -0.00 %       ±1.60% ±2.15%  ±2.84%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='iso-8859-3'                   ***     22.48 %       ±2.84% ±3.77%  ±4.91%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='latin1'                       ***     21.93 %       ±2.42% ±3.25%  ±4.30%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='utf-8'                        ***      0.65 %       ±0.35% ±0.47%  ±0.61%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='iso-8859-3'                   ***     20.98 %       ±2.14% ±2.87%  ±3.80%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='latin1'                       ***     23.34 %       ±2.01% ±2.70%  ±3.57%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='utf-8'                                 1.38 %       ±1.88% ±2.53%  ±3.35%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='iso-8859-3'         ***     19.52 %       ±1.86% ±2.48%  ±3.26%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='latin1'             ***     19.07 %       ±2.06% ±2.77%  ±3.65%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='utf-8'                       0.39 %       ±1.58% ±2.11%  ±2.74%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='iso-8859-3'         ***     21.28 %       ±3.13% ±4.17%  ±5.43%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='latin1'             ***     17.85 %       ±2.05% ±2.75%  ±3.62%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='utf-8'                       0.67 %       ±1.22% ±1.63%  ±2.13%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='iso-8859-3'         ***     20.48 %       ±2.85% ±3.80%  ±4.95%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='latin1'             ***     17.88 %       ±2.07% ±2.77%  ±3.65%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='utf-8'                      -0.30 %       ±1.35% ±1.80%  ±2.35%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='iso-8859-3'         ***     18.70 %       ±1.78% ±2.38%  ±3.13%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='latin1'             ***     18.87 %       ±1.71% ±2.28%  ±3.00%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='utf-8'                       0.87 %       ±1.39% ±1.84%  ±2.40%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='iso-8859-3'           ***     28.25 %       ±3.40% ±4.54%  ±5.96%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='latin1'               ***     23.59 %       ±4.09% ±5.49%  ±7.26%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='utf-8'                ***      3.72 %       ±1.71% ±2.29%  ±3.02%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='iso-8859-3'           ***     28.46 %       ±3.75% ±4.99%  ±6.49%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='latin1'               ***     28.83 %       ±1.77% ±2.35%  ±3.06%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='utf-8'                  *      2.86 %       ±2.83% ±3.77%  ±4.91%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='iso-8859-3'           ***     28.72 %       ±3.53% ±4.70%  ±6.13%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='latin1'               ***     27.26 %       ±2.11% ±2.82%  ±3.70%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='utf-8'                         0.42 %       ±1.46% ±1.96%  ±2.59%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='iso-8859-3'           ***     27.16 %       ±2.58% ±3.45%  ±4.52%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='latin1'               ***     27.08 %       ±4.63% ±6.18%  ±8.08%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='utf-8'                         2.06 %       ±2.94% ±3.96%  ±5.25%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='iso-8859-3'        ***     24.75 %       ±2.61% ±3.48%  ±4.54%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='latin1'            ***     21.61 %       ±1.80% ±2.42%  ±3.21%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='utf-8'              **      0.73 %       ±0.54% ±0.71%  ±0.93%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='iso-8859-3'        ***     20.77 %       ±3.21% ±4.30%  ±5.65%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='latin1'            ***     22.88 %       ±2.61% ±3.49%  ±4.58%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='utf-8'               *      0.48 %       ±0.46% ±0.61%  ±0.80%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='iso-8859-3'        ***     24.28 %       ±3.33% ±4.45%  ±5.84%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='latin1'            ***     20.46 %       ±3.23% ±4.32%  ±5.67%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='utf-8'             ***      0.85 %       ±0.45% ±0.60%  ±0.78%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='iso-8859-3'        ***     23.95 %       ±2.19% ±2.93%  ±3.83%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='latin1'            ***     21.85 %       ±1.88% ±2.53%  ±3.34%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='utf-8'                     -0.16 %       ±1.99% ±2.68%  ±3.55%
+util/text-encoder.js op='encode' type='ascii' n=1000000 len=1024                                                  *      1.23 %       ±1.11% ±1.48%  ±1.93%
+util/text-encoder.js op='encode' type='ascii' n=1000000 len=256                                                          1.39 %       ±1.48% ±1.97%  ±2.56%
+util/text-encoder.js op='encode' type='ascii' n=1000000 len=32                                                           1.35 %       ±2.10% ±2.79%  ±3.64%
+util/text-encoder.js op='encode' type='ascii' n=1000000 len=8192                                                ***     -9.36 %       ±0.43% ±0.57%  ±0.74%
+util/text-encoder.js op='encode' type='one-byte-string' n=1000000 len=1024                                      ***      3.53 %       ±1.80% ±2.40%  ±3.14%
+util/text-encoder.js op='encode' type='one-byte-string' n=1000000 len=256                                       ***      5.57 %       ±2.47% ±3.30%  ±4.34%
+util/text-encoder.js op='encode' type='one-byte-string' n=1000000 len=32                                         **      3.51 %       ±2.13% ±2.83%  ±3.69%
+util/text-encoder.js op='encode' type='one-byte-string' n=1000000 len=8192                                      ***      3.63 %       ±0.33% ±0.45%  ±0.59%
+util/text-encoder.js op='encode' type='two-byte-string' n=1000000 len=1024                                      ***      2.15 %       ±0.79% ±1.05%  ±1.38%
+util/text-encoder.js op='encode' type='two-byte-string' n=1000000 len=256                                        **      2.46 %       ±1.56% ±2.08%  ±2.74%
+util/text-encoder.js op='encode' type='two-byte-string' n=1000000 len=32                                        ***      3.51 %       ±1.65% ±2.20%  ±2.86%
+util/text-encoder.js op='encode' type='two-byte-string' n=1000000 len=8192                                       **      0.10 %       ±0.07% ±0.10%  ±0.13%
+util/text-encoder.js op='encodeInto' type='ascii' n=1000000 len=1024                                            ***      3.80 %       ±0.44% ±0.59%  ±0.77%
+util/text-encoder.js op='encodeInto' type='ascii' n=1000000 len=256                                             ***      7.83 %       ±0.75% ±0.99%  ±1.29%
+util/text-encoder.js op='encodeInto' type='ascii' n=1000000 len=32                                              ***      6.71 %       ±0.91% ±1.21%  ±1.58%
+util/text-encoder.js op='encodeInto' type='ascii' n=1000000 len=8192                                              *     -1.30 %       ±1.04% ±1.39%  ±1.83%
+util/text-encoder.js op='encodeInto' type='one-byte-string' n=1000000 len=1024                                  ***      1.14 %       ±0.13% ±0.18%  ±0.23%
+util/text-encoder.js op='encodeInto' type='one-byte-string' n=1000000 len=256                                   ***      2.78 %       ±0.33% ±0.44%  ±0.57%
+util/text-encoder.js op='encodeInto' type='one-byte-string' n=1000000 len=32                                    ***      1.46 %       ±0.84% ±1.12%  ±1.46%
+util/text-encoder.js op='encodeInto' type='one-byte-string' n=1000000 len=8192                                  ***      0.97 %       ±0.20% ±0.27%  ±0.36%
+util/text-encoder.js op='encodeInto' type='two-byte-string' n=1000000 len=1024                                    *      1.06 %       ±0.85% ±1.14%  ±1.51%
+util/text-encoder.js op='encodeInto' type='two-byte-string' n=1000000 len=256                                   ***     -1.15 %       ±0.40% ±0.53%  ±0.69%
+util/text-encoder.js op='encodeInto' type='two-byte-string' n=1000000 len=32                                             0.85 %       ±0.92% ±1.23%  ±1.61%
+util/text-encoder.js op='encodeInto' type='two-byte-string' n=1000000 len=8192                                  ***    -11.61 %       ±1.73% ±2.32%  ±3.07%
+
+$ node-benchmark-compare compare-util-16-20.csv
+                                                                                                         confidence improvement accuracy (*)    (**)   (***)
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='iso-8859-3'               ***     45.13 %       ±2.20%  ±2.96%  ±3.91%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='latin1'                   ***     45.04 %       ±2.50%  ±3.33%  ±4.33%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='utf-8'                    ***    119.01 %       ±2.85%  ±3.83%  ±5.07%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='iso-8859-3'               ***     42.13 %       ±2.59%  ±3.48%  ±4.58%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='latin1'                   ***     45.71 %       ±2.11%  ±2.83%  ±3.72%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='utf-8'                    ***    119.36 %       ±2.61%  ±3.50%  ±4.63%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='iso-8859-3'               ***     45.38 %       ±2.39%  ±3.20%  ±4.20%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='latin1'                   ***     43.58 %       ±2.37%  ±3.17%  ±4.18%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='utf-8'                    ***    108.40 %       ±2.66%  ±3.57%  ±4.70%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='iso-8859-3'               ***     45.91 %       ±2.02%  ±2.71%  ±3.57%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='latin1'                   ***     45.82 %       ±2.35%  ±3.13%  ±4.09%
+util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='utf-8'                    ***    108.47 %       ±2.22%  ±2.97%  ±3.91%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='iso-8859-3'                 ***    167.01 %       ±6.84%  ±9.21% ±12.20%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='latin1'                     ***    167.48 %       ±7.62% ±10.26% ±13.60%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='utf-8'                      ***    371.29 %       ±9.43% ±12.70% ±16.86%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='iso-8859-3'                 ***    165.99 %       ±6.40%  ±8.62% ±11.44%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='latin1'                     ***    165.24 %       ±6.31%  ±8.50% ±11.28%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='utf-8'                      ***    377.91 %       ±8.90% ±11.99% ±15.91%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='iso-8859-3'                 ***    167.53 %       ±6.21%  ±8.36% ±11.08%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='latin1'                     ***    166.03 %       ±6.57%  ±8.85% ±11.72%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='utf-8'                      ***    353.31 %       ±2.79%  ±3.75%  ±4.95%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='iso-8859-3'                 ***    167.09 %       ±5.57%  ±7.51%  ±9.97%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='latin1'                     ***    161.91 %       ±9.09% ±12.25% ±16.25%
+util/text-decoder.js type='ArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='utf-8'                      ***    347.65 %      ±10.13% ±13.66% ±18.12%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='iso-8859-3'              ***     33.38 %       ±3.04%  ±4.09%  ±5.42%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='latin1'                  ***     33.61 %       ±3.21%  ±4.32%  ±5.73%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='utf-8'                   ***    122.96 %       ±1.24%  ±1.67%  ±2.21%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='iso-8859-3'              ***     37.31 %       ±2.19%  ±2.92%  ±3.83%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='latin1'                  ***     34.32 %       ±2.26%  ±3.04%  ±4.03%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='utf-8'                   ***    121.84 %       ±1.00%  ±1.35%  ±1.78%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='iso-8859-3'              ***     34.75 %       ±2.69%  ±3.62%  ±4.80%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='latin1'                  ***     33.79 %       ±2.41%  ±3.25%  ±4.31%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='utf-8'                   ***    107.62 %       ±0.87%  ±1.16%  ±1.53%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='iso-8859-3'              ***     35.85 %       ±2.31%  ±3.11%  ±4.13%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='latin1'                  ***     35.56 %       ±2.54%  ±3.40%  ±4.46%
+util/text-decoder.js type='ArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='utf-8'                   ***    107.96 %       ±0.65%  ±0.87%  ±1.14%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='iso-8859-3'                    ***     37.77 %       ±4.06%  ±5.41%  ±7.06%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='latin1'                        ***     36.02 %       ±3.38%  ±4.55%  ±6.02%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='utf-8'                                 -5.42 %       ±5.77%  ±7.73% ±10.15%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='iso-8859-3'                    ***     38.76 %       ±4.24%  ±5.69%  ±7.51%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='latin1'                        ***     37.65 %       ±2.18%  ±2.91%  ±3.83%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='utf-8'                                 -4.19 %       ±6.33%  ±8.45% ±11.05%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='iso-8859-3'                    ***    108.77 %       ±2.65%  ±3.56%  ±4.71%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='latin1'                        ***     37.39 %       ±2.07%  ±2.78%  ±3.66%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='utf-8'                         ***    220.69 %       ±2.86%  ±3.85%  ±5.10%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='iso-8859-3'                    ***    108.68 %       ±3.93%  ±5.29%  ±7.01%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='latin1'                        ***     35.99 %       ±2.60%  ±3.49%  ±4.60%
+util/text-decoder.js type='Buffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='utf-8'                         ***    222.86 %       ±1.86%  ±2.50%  ±3.30%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='iso-8859-3'                      ***    112.76 %       ±5.43%  ±7.30%  ±9.67%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='latin1'                          ***    111.63 %       ±5.99%  ±8.07% ±10.69%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='utf-8'                           ***    278.61 %       ±2.11%  ±2.82%  ±3.69%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='iso-8859-3'                      ***    109.41 %       ±6.63%  ±8.93% ±11.83%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='latin1'                          ***    111.44 %       ±5.16%  ±6.94%  ±9.20%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='utf-8'                           ***    279.78 %       ±2.00%  ±2.68%  ±3.51%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='iso-8859-3'                      ***    111.81 %       ±4.87%  ±6.56%  ±8.68%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='latin1'                          ***    115.59 %       ±3.93%  ±5.26%  ±6.92%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='utf-8'                           ***    257.25 %       ±1.91%  ±2.55%  ±3.34%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='iso-8859-3'                      ***    108.29 %       ±7.12%  ±9.59% ±12.71%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='latin1'                          ***    113.26 %       ±4.09%  ±5.51%  ±7.29%
+util/text-decoder.js type='Buffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='utf-8'                           ***    250.62 %       ±8.36% ±11.26% ±14.95%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='iso-8859-3'                   ***     70.82 %       ±2.90%  ±3.89%  ±5.12%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='latin1'                       ***     57.87 %       ±3.83%  ±5.16%  ±6.84%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='utf-8'                        ***    423.80 %       ±2.66%  ±3.54%  ±4.61%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='iso-8859-3'                   ***     67.73 %       ±3.25%  ±4.36%  ±5.74%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='latin1'                       ***     59.34 %       ±2.99%  ±4.02%  ±5.31%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='utf-8'                        ***    423.24 %       ±8.37% ±11.26% ±14.90%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='iso-8859-3'                   ***    -97.90 %       ±0.53%  ±0.71%  ±0.95%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='latin1'                       ***     58.52 %       ±3.10%  ±4.17%  ±5.53%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='utf-8'                        ***    -96.21 %       ±0.53%  ±0.71%  ±0.94%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='iso-8859-3'                   ***    -97.91 %       ±0.60%  ±0.81%  ±1.08%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='latin1'                       ***     60.53 %       ±2.57%  ±3.47%  ±4.59%
+util/text-decoder.js type='Buffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='utf-8'                        ***    -96.24 %       ±0.48%  ±0.64%  ±0.86%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='iso-8859-3'         ***     47.73 %       ±2.15%  ±2.89%  ±3.81%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='latin1'             ***     47.09 %       ±2.47%  ±3.33%  ±4.40%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='utf-8'              ***    121.86 %       ±2.50%  ±3.36%  ±4.43%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='iso-8859-3'         ***     48.17 %       ±2.46%  ±3.31%  ±4.38%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='latin1'             ***     45.38 %       ±2.45%  ±3.29%  ±4.35%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=1 encoding='utf-8'              ***    118.21 %       ±1.54%  ±2.07%  ±2.72%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='iso-8859-3'         ***     45.92 %       ±2.32%  ±3.12%  ±4.11%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='latin1'             ***     45.97 %       ±2.59%  ±3.47%  ±4.57%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=0 encoding='utf-8'              ***    108.22 %       ±1.49%  ±1.99%  ±2.62%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='iso-8859-3'         ***     47.16 %       ±2.13%  ±2.86%  ±3.79%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='latin1'             ***     46.26 %       ±1.96%  ±2.64%  ±3.49%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=16384 fatal=1 ignoreBOM=1 encoding='utf-8'              ***    108.44 %       ±2.19%  ±2.93%  ±3.85%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='iso-8859-3'           ***    167.84 %       ±6.50%  ±8.75% ±11.61%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='latin1'               ***    161.92 %       ±8.46% ±11.39% ±15.11%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=0 encoding='utf-8'                ***    378.66 %       ±2.66%  ±3.56%  ±4.70%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='iso-8859-3'           ***    170.96 %       ±5.39%  ±7.24%  ±9.57%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='latin1'               ***    174.43 %       ±2.80%  ±3.75%  ±4.93%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=0 ignoreBOM=1 encoding='utf-8'                ***    373.13 %      ±10.55% ±14.22% ±18.87%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='iso-8859-3'           ***    167.22 %       ±4.50%  ±6.06%  ±8.03%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='latin1'               ***    171.41 %       ±4.12%  ±5.54%  ±7.33%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=0 encoding='utf-8'                ***    356.30 %       ±2.22%  ±2.97%  ±3.89%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='iso-8859-3'           ***    168.74 %       ±4.96%  ±6.68%  ±8.85%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='latin1'               ***    166.03 %       ±8.47% ±11.41% ±15.14%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=256 fatal=1 ignoreBOM=1 encoding='utf-8'                ***    351.98 %       ±2.22%  ±2.99%  ±3.95%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='iso-8859-3'        ***     36.20 %       ±2.37%  ±3.19%  ±4.23%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='latin1'            ***     33.61 %       ±1.96%  ±2.64%  ±3.50%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=0 encoding='utf-8'             ***    122.58 %       ±0.94%  ±1.27%  ±1.68%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='iso-8859-3'        ***     32.57 %       ±3.33%  ±4.48%  ±5.95%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='latin1'            ***     34.08 %       ±2.65%  ±3.57%  ±4.73%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=0 ignoreBOM=1 encoding='utf-8'             ***    121.32 %       ±0.86%  ±1.15%  ±1.52%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='iso-8859-3'        ***     35.67 %       ±3.34%  ±4.49%  ±5.96%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='latin1'            ***     31.57 %       ±3.26%  ±4.40%  ±5.84%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=0 encoding='utf-8'             ***    108.25 %       ±0.68%  ±0.91%  ±1.20%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='iso-8859-3'        ***     35.84 %       ±2.14%  ±2.88%  ±3.82%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='latin1'            ***     34.00 %       ±2.03%  ±2.74%  ±3.63%
+util/text-decoder.js type='SharedArrayBuffer' n=100 len=524288 fatal=1 ignoreBOM=1 encoding='utf-8'             ***    105.90 %       ±4.07%  ±5.49%  ±7.29%
+util/text-encoder.js op='encode' type='ascii' n=1000000 len=1024                                                ***     -2.67 %       ±1.40%  ±1.86%  ±2.44%
+util/text-encoder.js op='encode' type='ascii' n=1000000 len=256                                                 ***     -6.24 %       ±3.33%  ±4.46%  ±5.88%
+util/text-encoder.js op='encode' type='ascii' n=1000000 len=32                                                          -0.59 %       ±2.79%  ±3.73%  ±4.87%
+util/text-encoder.js op='encode' type='ascii' n=1000000 len=8192                                                ***     -9.13 %       ±0.71%  ±0.95%  ±1.24%
+util/text-encoder.js op='encode' type='one-byte-string' n=1000000 len=1024                                              -1.87 %       ±1.94%  ±2.58%  ±3.36%
+util/text-encoder.js op='encode' type='one-byte-string' n=1000000 len=256                                        **      4.88 %       ±3.33%  ±4.43%  ±5.77%
+util/text-encoder.js op='encode' type='one-byte-string' n=1000000 len=32                                          *     -2.50 %       ±2.20%  ±2.93%  ±3.82%
+util/text-encoder.js op='encode' type='one-byte-string' n=1000000 len=8192                                      ***      4.16 %       ±0.36%  ±0.49%  ±0.64%
+util/text-encoder.js op='encode' type='two-byte-string' n=1000000 len=1024                                              -0.86 %       ±0.93%  ±1.24%  ±1.63%
+util/text-encoder.js op='encode' type='two-byte-string' n=1000000 len=256                                       ***     -4.73 %       ±1.92%  ±2.55%  ±3.32%
+util/text-encoder.js op='encode' type='two-byte-string' n=1000000 len=32                                         **     -2.88 %       ±1.87%  ±2.50%  ±3.26%
+util/text-encoder.js op='encode' type='two-byte-string' n=1000000 len=8192                                      ***     -1.61 %       ±0.10%  ±0.14%  ±0.18%
+util/text-encoder.js op='encodeInto' type='ascii' n=1000000 len=1024                                            ***     82.68 %       ±0.61%  ±0.81%  ±1.07%
+util/text-encoder.js op='encodeInto' type='ascii' n=1000000 len=256                                             ***    108.02 %       ±1.22%  ±1.62%  ±2.11%
+util/text-encoder.js op='encodeInto' type='ascii' n=1000000 len=32                                              ***    136.63 %       ±1.85%  ±2.47%  ±3.24%
+util/text-encoder.js op='encodeInto' type='ascii' n=1000000 len=8192                                            ***     35.66 %       ±0.88%  ±1.17%  ±1.52%
+util/text-encoder.js op='encodeInto' type='one-byte-string' n=1000000 len=1024                                  ***     22.17 %       ±0.21%  ±0.28%  ±0.37%
+util/text-encoder.js op='encodeInto' type='one-byte-string' n=1000000 len=256                                   ***     64.09 %       ±0.51%  ±0.68%  ±0.88%
+util/text-encoder.js op='encodeInto' type='one-byte-string' n=1000000 len=32                                    ***    159.51 %       ±1.60%  ±2.14%  ±2.80%
+util/text-encoder.js op='encodeInto' type='one-byte-string' n=1000000 len=8192                                  ***      4.01 %       ±0.21%  ±0.28%  ±0.37%
+util/text-encoder.js op='encodeInto' type='two-byte-string' n=1000000 len=1024                                  ***     17.91 %       ±0.27%  ±0.36%  ±0.47%
+util/text-encoder.js op='encodeInto' type='two-byte-string' n=1000000 len=256                                   ***     53.66 %       ±0.58%  ±0.77%  ±1.00%
+util/text-encoder.js op='encodeInto' type='two-byte-string' n=1000000 len=32                                    ***    146.87 %       ±2.06%  ±2.76%  ±3.62%
+util/text-encoder.js op='encodeInto' type='two-byte-string' n=1000000 len=8192                                  ***     -9.48 %       ±1.74%  ±2.34%  ±3.11%
+```
+
 ## Node.js Common Operations
 
 3. Node.js Common Operations
