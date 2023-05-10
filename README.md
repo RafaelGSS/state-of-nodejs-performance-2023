@@ -636,7 +636,7 @@ buffers/buffer-tojson.js len=4096 n=10000                                       
 
 ### Util
 
-```
+```console
 $ node-benchmark-compare compare-util-16-18.csv
                                                                                                          confidence improvement accuracy (*)    (**)   (***)
 util/text-decoder.js type='ArrayBuffer' n=100 len=16384 fatal=0 ignoreBOM=0 encoding='iso-8859-3'               ***     21.94 %       ±0.93%  ±1.24%  ±1.62%
