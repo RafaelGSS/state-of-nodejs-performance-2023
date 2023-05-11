@@ -4,11 +4,14 @@ const fastify = require('fastify')({
 const fs = require('node:fs')
 const path = require('node:path')
 
-fastify.get('/', {
+fastify.get('/json', {
   schema: {
     response: {
       200: {
-        hello: { type: 'string' }
+        type: 'object',
+        properties: {
+          hello: { type: 'string' }
+        }
       }
     }
   }
